@@ -75,10 +75,14 @@ def _req(xff: str | None, peer: str = "10.0.0.9"):
 
 def test_rate_limit_key_ignores_forged_forwarded_for(monkeypatch):
     s = get_settings()
-    monkeypatch.setattr(s, "trusted_proxy_hops", 2)  # Vercel then Render
-    # the client forged "6.6.6.6"; Vercel appended the real client, Render appended Vercel's address
-    assert client_ip(_req("6.6.6.6, 203.0.113.7, 76.76.21.21")) == "203.0.113.7"
-    monkeypatch.setattr(s, "trusted_proxy_hops", 1)  # Render only
+    # Real chains seen on Render (behind Cloudflare and an internal hop), 1 Nov 2026:
+    via_vercel = "203.0.113.7,198.51.100.20, 198.51.100.30, 10.26.48.144"  # client, Vercel, Cloudflare, Render
+    direct = "203.0.113.7, 198.51.100.31, 10.30.215.2"  # client, Cloudflare, Render
+    monkeypatch.setattr(s, "trusted_proxy_hops", 4)
+    assert client_ip(_req(via_vercel)) == "203.0.113.7"
+    assert client_ip(_req(direct)) == "203.0.113.7"  # shorter chain: the first entry is the client
+    # Vercel discards a forged header, so the chain through the website never contains it
+    monkeypatch.setattr(s, "trusted_proxy_hops", 1)
     assert client_ip(_req("6.6.6.6, 203.0.113.7")) == "203.0.113.7"
     monkeypatch.setattr(s, "trusted_proxy_hops", 0)  # no proxy: socket address, header ignored
     assert client_ip(_req("6.6.6.6")) == "10.0.0.9"

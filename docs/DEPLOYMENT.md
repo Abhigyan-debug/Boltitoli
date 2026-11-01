@@ -25,14 +25,24 @@ REFRESH_COOKIE_SECURE=true
 CORS_ORIGINS=https://your-domain
 DEMO_MODE_ENABLED=false
 LOG_LEVEL=INFO
-TRUSTED_PROXY_HOPS=1            # proxies that append to X-Forwarded-For: Render = 1, Vercel + Render = 2
+TRUSTED_PROXY_HOPS=4            # see "Rate limits and the visitor address" below
 ```
 
 **Rate limits and the visitor address.** Limits are keyed by the visitor's IP, read from the
 `X-Forwarded-For` entry `TRUSTED_PROXY_HOPS` from the right (the one our own proxy wrote; entries further
-left can be forged). After deploying, confirm real visitor IPs reach the API; with the wrong value either
-every visitor shares one limit or the limit can be bypassed. Calling the Render URL directly (skipping
-Vercel) can still forge one hop when `TRUSTED_PROXY_HOPS=2`; set a spending limit on the provider keys.
+left can be forged).
+
+Measured on the live deployment (1 Nov 2026), Render sits behind Cloudflare and an internal hop:
+
+| Path | Chain received by the API | Client position |
+|---|---|---|
+| Website (Vercel → Render) | `client, Vercel, Cloudflare, Render-internal` | 4th from the right |
+| Direct to Render | `client, Cloudflare, Render-internal` | shorter than 4: first entry |
+
+So the value is **4**. Vercel discards a forged `X-Forwarded-For`, so visitors of the website cannot fake
+their address. Someone calling the Render URL directly can still add a forged entry and avoid the limit; keep
+a spending limit on the provider keys. The value was found with the temporary `/api/v1/debug/client` endpoint,
+enabled by `DEBUG_CLIENT_IP=true`; leave it `false` in normal operation.
 
 Limits: register/login/demo 10/min, token refresh 30/min, speech 60/min (TTS clip 20/min), answers 60/min,
 ending a session 10/min, AI question drafting 5/min. They are per process and in memory.

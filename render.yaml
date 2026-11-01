@@ -26,9 +26,9 @@ services:
       - key: DEMO_MODE_ENABLED
         value: "true"
       - key: TRUSTED_PROXY_HOPS
-        value: "2"
+        value: "4"
       - key: DEBUG_CLIENT_IP
-        value: "true"
+        value: "false"
       - key: LOG_LEVEL
         value: INFO
       - key: ANTHROPIC_API_KEY
