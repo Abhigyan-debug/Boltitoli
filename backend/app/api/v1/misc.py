@@ -6,13 +6,15 @@ import csv
 import io
 from datetime import datetime, timedelta
 
-from fastapi import APIRouter, Depends, Response
+from fastapi import APIRouter, Depends, Request, Response
 from sqlalchemy import text
 from sqlalchemy.orm import Session as DB
 
 from app.ai.health import health
 from app.api.deps import admin, get_current_user, staff
 from app.core.config import get_settings
+from app.core.errors import NotFound
+from app.core.rate_limit import client_ip
 from app.db.base import utcnow
 from app.db.session import get_db
 from app.models import User
@@ -88,6 +90,18 @@ def health_ready(response: Response, db: DB = Depends(get_db)) -> dict:
     except Exception:  # noqa: BLE001
         response.status_code = 503
         return {"status": "not_ready", "database": "unavailable"}
+
+
+@router.get("/debug/client", include_in_schema=False)
+def debug_client(request: Request) -> dict:
+    """Temporary deployment check: shows the caller's own proxy chain and the rate-limit key.
+    Disabled unless DEBUG_CLIENT_IP=true; turn it off again after setting TRUSTED_PROXY_HOPS."""
+    if not get_settings().debug_client_ip:
+        raise NotFound("Not found.")
+    marks = ("forward", "real-ip", "client-ip", "cf-connecting", "x-vercel", "true-client")
+    chain = {k: v for k, v in request.headers.items() if any(m in k.lower() for m in marks)}
+    peer = request.client.host if request.client else None
+    return {"rate_limit_key": client_ip(request), "peer": peer, "headers": chain}
 
 
 @router.get("/admin/providers", tags=["admin"], summary="AI and voice provider health (administrators)")

@@ -41,6 +41,7 @@ class Settings(BaseSettings):
     speech_rate_limit: str = "60/minute"
     # proxies in front of the API that append to X-Forwarded-For (Render = 1, Vercel + Render = 2)
     trusted_proxy_hops: int = Field(default=0, ge=0, le=5)
+    debug_client_ip: bool = False  # temporary deployment check, see /api/v1/debug/client
 
     # --- Claude (Anthropic) ---
     anthropic_api_key: str | None = None
