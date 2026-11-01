@@ -128,6 +128,16 @@ def test_health(client):
     assert client.get("/api/v1/health/ready").json()["database"] == "ok"
 
 
+def test_hosted_database_urls_use_psycopg3(monkeypatch):
+    from app.core.config import Settings
+
+    for given in ("postgres://u:p@host/db?sslmode=require", "postgresql://u:p@host/db?sslmode=require"):
+        monkeypatch.setenv("DATABASE_URL", given)
+        assert Settings(_env_file=None).database_url == "postgresql+psycopg://u:p@host/db?sslmode=require"
+    monkeypatch.setenv("DATABASE_URL", "sqlite:///./x.db")
+    assert Settings(_env_file=None).database_url == "sqlite:///./x.db"
+
+
 def test_cors_origins_accepts_comma_separated_env(monkeypatch):
     # the format used by .env.example and docker-compose.yml
     from app.core.config import Settings

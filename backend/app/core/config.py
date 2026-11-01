@@ -71,6 +71,16 @@ class Settings(BaseSettings):
     demo_mode_enabled: bool = True
     data_retention_days: int = 730
 
+    @field_validator("database_url", mode="before")
+    @classmethod
+    def _psycopg_driver(cls, v: object) -> object:
+        # hosted databases (Neon, Render, Heroku) hand out postgres:// or postgresql:// URLs; use psycopg 3
+        if isinstance(v, str):
+            for prefix in ("postgres://", "postgresql://"):
+                if v.startswith(prefix):
+                    return "postgresql+psycopg://" + v[len(prefix):]
+        return v
+
     @field_validator("cors_origins", mode="before")
     @classmethod
     def _split_origins(cls, v: object) -> object:
