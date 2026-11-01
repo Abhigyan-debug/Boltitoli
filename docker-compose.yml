@@ -1,0 +1,42 @@
+# Local full stack: PostgreSQL + API + web (nginx serving the PWA and proxying /api).
+#   cp backend/.env.example backend/.env   # add API keys if you have them
+#   docker compose up --build
+#   open http://localhost:8080
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: boltitoli
+      POSTGRES_USER: boltitoli
+      POSTGRES_PASSWORD: boltitoli-local-only
+      POSTGRES_INITDB_ARGS: "--encoding=UTF8"
+    volumes: [db-data:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U boltitoli"]
+      interval: 5s
+      retries: 10
+
+  api:
+    build: ./backend
+    env_file: [backend/.env]
+    environment:
+      DATABASE_URL: postgresql+psycopg://boltitoli:boltitoli-local-only@db:5432/boltitoli
+      CORS_ORIGINS: http://localhost:8080
+    depends_on:
+      db: { condition: service_healthy }
+    volumes: [tts-cache:/app/.cache/tts]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://localhost:8000/api/v1/health/ready')"]
+      interval: 10s
+      retries: 6
+
+  web:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    ports: ["8080:80"]
+    depends_on: [api]
+
+volumes:
+  db-data:
+  tts-cache:

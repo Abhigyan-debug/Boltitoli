@@ -1,0 +1,3071 @@
+[
+ {
+  "skill": {
+   "code": "count_to_10",
+   "name_en": "Counting objects to 10",
+   "name_hi": "10 तक चीज़ें गिनना",
+   "level": "beginner",
+   "grade_band": "1",
+   "sort_order": 0,
+   "curriculum_refs": [
+    "Informed by NIPUN Bharat numeracy goals (Grade 1)",
+    "ASER early number tasks"
+   ],
+   "description_hi": "बच्चे 10 तक की चीज़ें एक-एक करके सही गिन पाएँ।"
+  },
+  "lesson": {
+   "code": "count_to_10_v1",
+   "title_hi": "10 तक चीज़ें गिनना",
+   "title_en": "Counting objects to 10",
+   "objective_hi": "बच्चे 10 तक की चीज़ें एक-एक करके सही गिन पाएँ।",
+   "intro_hi": "नमस्ते बच्चो! मैं बोलती टोली हूँ। आज हम साथ में चीज़ें गिनना का अभ्यास करेंगे। मैं सवाल पूछूँगी, तुम सब मिलकर सोचो और फिर एक साथ जवाब बोलो।",
+   "completion_criteria": {
+    "target_minutes": 15,
+    "min_questions": 6
+   },
+   "questions": [
+    {
+     "difficulty": 1,
+     "kind": "count",
+     "prompt_hi": "देखो, यहाँ कितने सेब हैं? गिनकर बताओ।",
+     "prompt_en": "Look, how many apples are here? Count and tell.",
+     "operands": {
+      "n": 3
+     },
+     "expected_answer": 3,
+     "hint_hi": "हर चीज़ को एक-एक करके छूकर गिनो। जो गिन लिया, उसे अलग रखो।",
+     "explanation_hi": "चलो साथ में गिनें: एक, दो, तीन। कुल 3 सेब हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "apple",
+      "groups": [
+       3
+      ],
+      "op": null
+     },
+     "position": 0
+    },
+    {
+     "difficulty": 1,
+     "kind": "count",
+     "prompt_hi": "देखो, यहाँ कितनी गेंदें हैं? गिनकर बताओ।",
+     "prompt_en": "Look, how many balls are here? Count and tell.",
+     "operands": {
+      "n": 2
+     },
+     "expected_answer": 2,
+     "hint_hi": "हर चीज़ को एक-एक करके छूकर गिनो। जो गिन लिया, उसे अलग रखो।",
+     "explanation_hi": "चलो साथ में गिनें: एक, दो। कुल 2 गेंदें हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "ball",
+      "groups": [
+       2
+      ],
+      "op": null
+     },
+     "position": 1
+    },
+    {
+     "difficulty": 1,
+     "kind": "count",
+     "prompt_hi": "देखो, यहाँ कितने आम हैं? गिनकर बताओ।",
+     "prompt_en": "Look, how many mangoes are here? Count and tell.",
+     "operands": {
+      "n": 4
+     },
+     "expected_answer": 4,
+     "hint_hi": "हर चीज़ को एक-एक करके छूकर गिनो। जो गिन लिया, उसे अलग रखो।",
+     "explanation_hi": "चलो साथ में गिनें: एक, दो, तीन, चार। कुल 4 आम हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "mango",
+      "groups": [
+       4
+      ],
+      "op": null
+     },
+     "position": 2
+    },
+    {
+     "difficulty": 1,
+     "kind": "count",
+     "prompt_hi": "देखो, यहाँ कितने लड्डू हैं? गिनकर बताओ।",
+     "prompt_en": "Look, how many laddoos are here? Count and tell.",
+     "operands": {
+      "n": 5
+     },
+     "expected_answer": 5,
+     "hint_hi": "हर चीज़ को एक-एक करके छूकर गिनो। जो गिन लिया, उसे अलग रखो।",
+     "explanation_hi": "चलो साथ में गिनें: एक, दो, तीन, चार, पांच। कुल 5 लड्डू हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "laddoo",
+      "groups": [
+       5
+      ],
+      "op": null
+     },
+     "position": 3
+    },
+    {
+     "difficulty": 1,
+     "kind": "count",
+     "prompt_hi": "देखो, यहाँ कितने पत्ते हैं? गिनकर बताओ।",
+     "prompt_en": "Look, how many leaves are here? Count and tell.",
+     "operands": {
+      "n": 1
+     },
+     "expected_answer": 1,
+     "hint_hi": "हर चीज़ को एक-एक करके छूकर गिनो। जो गिन लिया, उसे अलग रखो।",
+     "explanation_hi": "चलो साथ में गिनें: एक। कुल 1 पत्ता है।",
+     "visual": {
+      "type": "objects",
+      "object": "leaf",
+      "groups": [
+       1
+      ],
+      "op": null
+     },
+     "position": 4
+    },
+    {
+     "difficulty": 2,
+     "kind": "count",
+     "prompt_hi": "देखो, यहाँ कितनी तीलियाँ हैं? गिनकर बताओ।",
+     "prompt_en": "Look, how many sticks are here? Count and tell.",
+     "operands": {
+      "n": 6
+     },
+     "expected_answer": 6,
+     "hint_hi": "हर चीज़ को एक-एक करके छूकर गिनो। जो गिन लिया, उसे अलग रखो।",
+     "explanation_hi": "चलो साथ में गिनें: एक, दो, तीन, चार, पांच, छह। कुल 6 तीलियाँ हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "stick",
+      "groups": [
+       6
+      ],
+      "op": null
+     },
+     "position": 5
+    },
+    {
+     "difficulty": 2,
+     "kind": "count",
+     "prompt_hi": "देखो, यहाँ कितने सेब हैं? गिनकर बताओ।",
+     "prompt_en": "Look, how many apples are here? Count and tell.",
+     "operands": {
+      "n": 7
+     },
+     "expected_answer": 7,
+     "hint_hi": "हर चीज़ को एक-एक करके छूकर गिनो। जो गिन लिया, उसे अलग रखो।",
+     "explanation_hi": "चलो साथ में गिनें: एक, दो, तीन, चार, पांच, छह, सात। कुल 7 सेब हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "apple",
+      "groups": [
+       7
+      ],
+      "op": null
+     },
+     "position": 6
+    },
+    {
+     "difficulty": 2,
+     "kind": "count",
+     "prompt_hi": "देखो, यहाँ कितनी गेंदें हैं? गिनकर बताओ।",
+     "prompt_en": "Look, how many balls are here? Count and tell.",
+     "operands": {
+      "n": 8
+     },
+     "expected_answer": 8,
+     "hint_hi": "हर चीज़ को एक-एक करके छूकर गिनो। जो गिन लिया, उसे अलग रखो।",
+     "explanation_hi": "चलो साथ में गिनें: एक, दो, तीन, चार, पांच, छह, सात, आठ। कुल 8 गेंदें हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "ball",
+      "groups": [
+       8
+      ],
+      "op": null
+     },
+     "position": 7
+    },
+    {
+     "difficulty": 2,
+     "kind": "count",
+     "prompt_hi": "देखो, यहाँ कितने पत्ते हैं? गिनकर बताओ।",
+     "prompt_en": "Look, how many leaves are here? Count and tell.",
+     "operands": {
+      "n": 6
+     },
+     "expected_answer": 6,
+     "hint_hi": "हर चीज़ को एक-एक करके छूकर गिनो। जो गिन लिया, उसे अलग रखो।",
+     "explanation_hi": "चलो साथ में गिनें: एक, दो, तीन, चार, पांच, छह। कुल 6 पत्ते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "leaf",
+      "groups": [
+       6
+      ],
+      "op": null
+     },
+     "position": 8
+    },
+    {
+     "difficulty": 2,
+     "kind": "count",
+     "prompt_hi": "देखो, यहाँ कितने आम हैं? गिनकर बताओ।",
+     "prompt_en": "Look, how many mangoes are here? Count and tell.",
+     "operands": {
+      "n": 7
+     },
+     "expected_answer": 7,
+     "hint_hi": "हर चीज़ को एक-एक करके छूकर गिनो। जो गिन लिया, उसे अलग रखो।",
+     "explanation_hi": "चलो साथ में गिनें: एक, दो, तीन, चार, पांच, छह, सात। कुल 7 आम हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "mango",
+      "groups": [
+       7
+      ],
+      "op": null
+     },
+     "position": 9
+    },
+    {
+     "difficulty": 3,
+     "kind": "count",
+     "prompt_hi": "देखो, यहाँ कितने लड्डू हैं? गिनकर बताओ।",
+     "prompt_en": "Look, how many laddoos are here? Count and tell.",
+     "operands": {
+      "n": 9
+     },
+     "expected_answer": 9,
+     "hint_hi": "हर चीज़ को एक-एक करके छूकर गिनो। जो गिन लिया, उसे अलग रखो।",
+     "explanation_hi": "चलो साथ में गिनें: एक, दो, तीन, चार, पांच, छह, सात, आठ, नौ। कुल 9 लड्डू हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "laddoo",
+      "groups": [
+       9
+      ],
+      "op": null
+     },
+     "position": 10
+    },
+    {
+     "difficulty": 3,
+     "kind": "count",
+     "prompt_hi": "देखो, यहाँ कितने सेब हैं? गिनकर बताओ।",
+     "prompt_en": "Look, how many apples are here? Count and tell.",
+     "operands": {
+      "n": 10
+     },
+     "expected_answer": 10,
+     "hint_hi": "हर चीज़ को एक-एक करके छूकर गिनो। जो गिन लिया, उसे अलग रखो।",
+     "explanation_hi": "चलो साथ में गिनें: एक, दो, तीन, चार, पांच, छह, सात, आठ, नौ, दस। कुल 10 सेब हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "apple",
+      "groups": [
+       10
+      ],
+      "op": null
+     },
+     "position": 11
+    },
+    {
+     "difficulty": 3,
+     "kind": "count",
+     "prompt_hi": "देखो, यहाँ कितनी तीलियाँ हैं? गिनकर बताओ।",
+     "prompt_en": "Look, how many sticks are here? Count and tell.",
+     "operands": {
+      "n": 9
+     },
+     "expected_answer": 9,
+     "hint_hi": "हर चीज़ को एक-एक करके छूकर गिनो। जो गिन लिया, उसे अलग रखो।",
+     "explanation_hi": "चलो साथ में गिनें: एक, दो, तीन, चार, पांच, छह, सात, आठ, नौ। कुल 9 तीलियाँ हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "stick",
+      "groups": [
+       9
+      ],
+      "op": null
+     },
+     "position": 12
+    },
+    {
+     "difficulty": 3,
+     "kind": "count",
+     "prompt_hi": "देखो, यहाँ कितनी गेंदें हैं? गिनकर बताओ।",
+     "prompt_en": "Look, how many balls are here? Count and tell.",
+     "operands": {
+      "n": 10
+     },
+     "expected_answer": 10,
+     "hint_hi": "हर चीज़ को एक-एक करके छूकर गिनो। जो गिन लिया, उसे अलग रखो।",
+     "explanation_hi": "चलो साथ में गिनें: एक, दो, तीन, चार, पांच, छह, सात, आठ, नौ, दस। कुल 10 गेंदें हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "ball",
+      "groups": [
+       10
+      ],
+      "op": null
+     },
+     "position": 13
+    },
+    {
+     "difficulty": 3,
+     "kind": "count",
+     "prompt_hi": "देखो, यहाँ कितने पत्ते हैं? गिनकर बताओ।",
+     "prompt_en": "Look, how many leaves are here? Count and tell.",
+     "operands": {
+      "n": 8
+     },
+     "expected_answer": 8,
+     "hint_hi": "हर चीज़ को एक-एक करके छूकर गिनो। जो गिन लिया, उसे अलग रखो।",
+     "explanation_hi": "चलो साथ में गिनें: एक, दो, तीन, चार, पांच, छह, सात, आठ। कुल 8 पत्ते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "leaf",
+      "groups": [
+       8
+      ],
+      "op": null
+     },
+     "position": 14
+    }
+   ]
+  }
+ },
+ {
+  "skill": {
+   "code": "number_sequence_20",
+   "name_en": "Number before and after (to 20)",
+   "name_hi": "20 तक पहले और बाद की संख्या",
+   "level": "beginner",
+   "grade_band": "1",
+   "sort_order": 1,
+   "curriculum_refs": [
+    "Informed by NIPUN Bharat numeracy goals (Grade 1)",
+    "NCERT Math-Magic Class 1"
+   ],
+   "description_hi": "बच्चे 20 तक किसी संख्या से पहले और बाद की संख्या बता पाएँ।"
+  },
+  "lesson": {
+   "code": "number_sequence_20_v1",
+   "title_hi": "20 तक पहले और बाद की संख्या",
+   "title_en": "Number before and after (to 20)",
+   "objective_hi": "बच्चे 20 तक किसी संख्या से पहले और बाद की संख्या बता पाएँ।",
+   "intro_hi": "नमस्ते बच्चो! मैं बोलती टोली हूँ। आज हम साथ में पहले और बाद की संख्या का अभ्यास करेंगे। मैं सवाल पूछूँगी, तुम सब मिलकर सोचो और फिर एक साथ जवाब बोलो।",
+   "completion_criteria": {
+    "target_minutes": 15,
+    "min_questions": 6
+   },
+   "questions": [
+    {
+     "difficulty": 1,
+     "kind": "before_after",
+     "prompt_hi": "3 के बाद कौन सी संख्या आती है?",
+     "prompt_en": "Which number comes after 3?",
+     "operands": {
+      "n": 3,
+      "ask": "after"
+     },
+     "expected_answer": 4,
+     "hint_hi": "गिनती बोलो और 3 पर रुको। उसके बाद क्या आता है?",
+     "explanation_hi": "3 के बाद 4 आता है, क्योंकि 3 में एक जोड़ो तो 4 होता है।",
+     "visual": {
+      "type": "number_line",
+      "from": 0,
+      "to": 6,
+      "highlight": 3,
+      "ask": "after"
+     },
+     "position": 0
+    },
+    {
+     "difficulty": 1,
+     "kind": "before_after",
+     "prompt_hi": "5 के बाद कौन सी संख्या आती है?",
+     "prompt_en": "Which number comes after 5?",
+     "operands": {
+      "n": 5,
+      "ask": "after"
+     },
+     "expected_answer": 6,
+     "hint_hi": "गिनती बोलो और 5 पर रुको। उसके बाद क्या आता है?",
+     "explanation_hi": "5 के बाद 6 आता है, क्योंकि 5 में एक जोड़ो तो 6 होता है।",
+     "visual": {
+      "type": "number_line",
+      "from": 2,
+      "to": 8,
+      "highlight": 5,
+      "ask": "after"
+     },
+     "position": 1
+    },
+    {
+     "difficulty": 1,
+     "kind": "before_after",
+     "prompt_hi": "7 के बाद कौन सी संख्या आती है?",
+     "prompt_en": "Which number comes after 7?",
+     "operands": {
+      "n": 7,
+      "ask": "after"
+     },
+     "expected_answer": 8,
+     "hint_hi": "गिनती बोलो और 7 पर रुको। उसके बाद क्या आता है?",
+     "explanation_hi": "7 के बाद 8 आता है, क्योंकि 7 में एक जोड़ो तो 8 होता है।",
+     "visual": {
+      "type": "number_line",
+      "from": 4,
+      "to": 10,
+      "highlight": 7,
+      "ask": "after"
+     },
+     "position": 2
+    },
+    {
+     "difficulty": 1,
+     "kind": "before_after",
+     "prompt_hi": "8 के बाद कौन सी संख्या आती है?",
+     "prompt_en": "Which number comes after 8?",
+     "operands": {
+      "n": 8,
+      "ask": "after"
+     },
+     "expected_answer": 9,
+     "hint_hi": "गिनती बोलो और 8 पर रुको। उसके बाद क्या आता है?",
+     "explanation_hi": "8 के बाद 9 आता है, क्योंकि 8 में एक जोड़ो तो 9 होता है।",
+     "visual": {
+      "type": "number_line",
+      "from": 5,
+      "to": 11,
+      "highlight": 8,
+      "ask": "after"
+     },
+     "position": 3
+    },
+    {
+     "difficulty": 1,
+     "kind": "before_after",
+     "prompt_hi": "6 से पहले कौन सी संख्या आती है?",
+     "prompt_en": "Which number comes before 6?",
+     "operands": {
+      "n": 6,
+      "ask": "before"
+     },
+     "expected_answer": 5,
+     "hint_hi": "गिनती बोलो और 6 पर रुको। उससे पहले क्या आता है?",
+     "explanation_hi": "6 से पहले 5 आता है, क्योंकि 6 में से एक घटाओ तो 5 होता है।",
+     "visual": {
+      "type": "number_line",
+      "from": 3,
+      "to": 9,
+      "highlight": 6,
+      "ask": "before"
+     },
+     "position": 4
+    },
+    {
+     "difficulty": 2,
+     "kind": "before_after",
+     "prompt_hi": "11 के बाद कौन सी संख्या आती है?",
+     "prompt_en": "Which number comes after 11?",
+     "operands": {
+      "n": 11,
+      "ask": "after"
+     },
+     "expected_answer": 12,
+     "hint_hi": "गिनती बोलो और 11 पर रुको। उसके बाद क्या आता है?",
+     "explanation_hi": "11 के बाद 12 आता है, क्योंकि 11 में एक जोड़ो तो 12 होता है।",
+     "visual": {
+      "type": "number_line",
+      "from": 8,
+      "to": 14,
+      "highlight": 11,
+      "ask": "after"
+     },
+     "position": 5
+    },
+    {
+     "difficulty": 2,
+     "kind": "before_after",
+     "prompt_hi": "13 के बाद कौन सी संख्या आती है?",
+     "prompt_en": "Which number comes after 13?",
+     "operands": {
+      "n": 13,
+      "ask": "after"
+     },
+     "expected_answer": 14,
+     "hint_hi": "गिनती बोलो और 13 पर रुको। उसके बाद क्या आता है?",
+     "explanation_hi": "13 के बाद 14 आता है, क्योंकि 13 में एक जोड़ो तो 14 होता है।",
+     "visual": {
+      "type": "number_line",
+      "from": 10,
+      "to": 16,
+      "highlight": 13,
+      "ask": "after"
+     },
+     "position": 6
+    },
+    {
+     "difficulty": 2,
+     "kind": "before_after",
+     "prompt_hi": "12 से पहले कौन सी संख्या आती है?",
+     "prompt_en": "Which number comes before 12?",
+     "operands": {
+      "n": 12,
+      "ask": "before"
+     },
+     "expected_answer": 11,
+     "hint_hi": "गिनती बोलो और 12 पर रुको। उससे पहले क्या आता है?",
+     "explanation_hi": "12 से पहले 11 आता है, क्योंकि 12 में से एक घटाओ तो 11 होता है।",
+     "visual": {
+      "type": "number_line",
+      "from": 9,
+      "to": 15,
+      "highlight": 12,
+      "ask": "before"
+     },
+     "position": 7
+    },
+    {
+     "difficulty": 2,
+     "kind": "before_after",
+     "prompt_hi": "15 के बाद कौन सी संख्या आती है?",
+     "prompt_en": "Which number comes after 15?",
+     "operands": {
+      "n": 15,
+      "ask": "after"
+     },
+     "expected_answer": 16,
+     "hint_hi": "गिनती बोलो और 15 पर रुको। उसके बाद क्या आता है?",
+     "explanation_hi": "15 के बाद 16 आता है, क्योंकि 15 में एक जोड़ो तो 16 होता है।",
+     "visual": {
+      "type": "number_line",
+      "from": 12,
+      "to": 18,
+      "highlight": 15,
+      "ask": "after"
+     },
+     "position": 8
+    },
+    {
+     "difficulty": 2,
+     "kind": "before_after",
+     "prompt_hi": "10 के बाद कौन सी संख्या आती है?",
+     "prompt_en": "Which number comes after 10?",
+     "operands": {
+      "n": 10,
+      "ask": "after"
+     },
+     "expected_answer": 11,
+     "hint_hi": "गिनती बोलो और 10 पर रुको। उसके बाद क्या आता है?",
+     "explanation_hi": "10 के बाद 11 आता है, क्योंकि 10 में एक जोड़ो तो 11 होता है।",
+     "visual": {
+      "type": "number_line",
+      "from": 7,
+      "to": 13,
+      "highlight": 10,
+      "ask": "after"
+     },
+     "position": 9
+    },
+    {
+     "difficulty": 3,
+     "kind": "before_after",
+     "prompt_hi": "17 के बाद कौन सी संख्या आती है?",
+     "prompt_en": "Which number comes after 17?",
+     "operands": {
+      "n": 17,
+      "ask": "after"
+     },
+     "expected_answer": 18,
+     "hint_hi": "गिनती बोलो और 17 पर रुको। उसके बाद क्या आता है?",
+     "explanation_hi": "17 के बाद 18 आता है, क्योंकि 17 में एक जोड़ो तो 18 होता है।",
+     "visual": {
+      "type": "number_line",
+      "from": 14,
+      "to": 20,
+      "highlight": 17,
+      "ask": "after"
+     },
+     "position": 10
+    },
+    {
+     "difficulty": 3,
+     "kind": "before_after",
+     "prompt_hi": "19 के बाद कौन सी संख्या आती है?",
+     "prompt_en": "Which number comes after 19?",
+     "operands": {
+      "n": 19,
+      "ask": "after"
+     },
+     "expected_answer": 20,
+     "hint_hi": "गिनती बोलो और 19 पर रुको। उसके बाद क्या आता है?",
+     "explanation_hi": "19 के बाद 20 आता है, क्योंकि 19 में एक जोड़ो तो 20 होता है।",
+     "visual": {
+      "type": "number_line",
+      "from": 16,
+      "to": 22,
+      "highlight": 19,
+      "ask": "after"
+     },
+     "position": 11
+    },
+    {
+     "difficulty": 3,
+     "kind": "before_after",
+     "prompt_hi": "16 से पहले कौन सी संख्या आती है?",
+     "prompt_en": "Which number comes before 16?",
+     "operands": {
+      "n": 16,
+      "ask": "before"
+     },
+     "expected_answer": 15,
+     "hint_hi": "गिनती बोलो और 16 पर रुको। उससे पहले क्या आता है?",
+     "explanation_hi": "16 से पहले 15 आता है, क्योंकि 16 में से एक घटाओ तो 15 होता है।",
+     "visual": {
+      "type": "number_line",
+      "from": 13,
+      "to": 19,
+      "highlight": 16,
+      "ask": "before"
+     },
+     "position": 12
+    },
+    {
+     "difficulty": 3,
+     "kind": "before_after",
+     "prompt_hi": "20 से पहले कौन सी संख्या आती है?",
+     "prompt_en": "Which number comes before 20?",
+     "operands": {
+      "n": 20,
+      "ask": "before"
+     },
+     "expected_answer": 19,
+     "hint_hi": "गिनती बोलो और 20 पर रुको। उससे पहले क्या आता है?",
+     "explanation_hi": "20 से पहले 19 आता है, क्योंकि 20 में से एक घटाओ तो 19 होता है।",
+     "visual": {
+      "type": "number_line",
+      "from": 17,
+      "to": 23,
+      "highlight": 20,
+      "ask": "before"
+     },
+     "position": 13
+    },
+    {
+     "difficulty": 3,
+     "kind": "before_after",
+     "prompt_hi": "18 से पहले कौन सी संख्या आती है?",
+     "prompt_en": "Which number comes before 18?",
+     "operands": {
+      "n": 18,
+      "ask": "before"
+     },
+     "expected_answer": 17,
+     "hint_hi": "गिनती बोलो और 18 पर रुको। उससे पहले क्या आता है?",
+     "explanation_hi": "18 से पहले 17 आता है, क्योंकि 18 में से एक घटाओ तो 17 होता है।",
+     "visual": {
+      "type": "number_line",
+      "from": 15,
+      "to": 21,
+      "highlight": 18,
+      "ask": "before"
+     },
+     "position": 14
+    }
+   ]
+  }
+ },
+ {
+  "skill": {
+   "code": "compare_within_20",
+   "name_en": "Comparing numbers to 20",
+   "name_hi": "20 तक संख्याओं की तुलना",
+   "level": "developing",
+   "grade_band": "1-2",
+   "sort_order": 2,
+   "curriculum_refs": [
+    "Informed by NIPUN Bharat numeracy goals (Grade 1-2)"
+   ],
+   "description_hi": "बच्चे 20 तक की दो संख्याओं में बड़ी संख्या पहचान पाएँ।"
+  },
+  "lesson": {
+   "code": "compare_within_20_v1",
+   "title_hi": "20 तक संख्याओं की तुलना",
+   "title_en": "Comparing numbers to 20",
+   "objective_hi": "बच्चे 20 तक की दो संख्याओं में बड़ी संख्या पहचान पाएँ।",
+   "intro_hi": "नमस्ते बच्चो! मैं बोलती टोली हूँ। आज हम साथ में बड़ी संख्या पहचानना का अभ्यास करेंगे। मैं सवाल पूछूँगी, तुम सब मिलकर सोचो और फिर एक साथ जवाब बोलो।",
+   "completion_criteria": {
+    "target_minutes": 15,
+    "min_questions": 6
+   },
+   "questions": [
+    {
+     "difficulty": 1,
+     "kind": "compare",
+     "prompt_hi": "2 और 7 में कौन सी संख्या बड़ी है?",
+     "prompt_en": "Which is bigger, 2 or 7?",
+     "operands": {
+      "a": 2,
+      "b": 7
+     },
+     "expected_answer": 7,
+     "hint_hi": "गिनती में जो संख्या बाद में आती है, वह बड़ी होती है।",
+     "explanation_hi": "गिनती में 7, 2 के बाद आता है, इसलिए 7 बड़ा है।",
+     "visual": {
+      "type": "compare",
+      "values": [
+       2,
+       7
+      ]
+     },
+     "position": 0
+    },
+    {
+     "difficulty": 1,
+     "kind": "compare",
+     "prompt_hi": "9 और 4 में कौन सी संख्या बड़ी है?",
+     "prompt_en": "Which is bigger, 9 or 4?",
+     "operands": {
+      "a": 9,
+      "b": 4
+     },
+     "expected_answer": 9,
+     "hint_hi": "गिनती में जो संख्या बाद में आती है, वह बड़ी होती है।",
+     "explanation_hi": "गिनती में 9, 4 के बाद आता है, इसलिए 9 बड़ा है।",
+     "visual": {
+      "type": "compare",
+      "values": [
+       9,
+       4
+      ]
+     },
+     "position": 1
+    },
+    {
+     "difficulty": 1,
+     "kind": "compare",
+     "prompt_hi": "3 और 8 में कौन सी संख्या बड़ी है?",
+     "prompt_en": "Which is bigger, 3 or 8?",
+     "operands": {
+      "a": 3,
+      "b": 8
+     },
+     "expected_answer": 8,
+     "hint_hi": "गिनती में जो संख्या बाद में आती है, वह बड़ी होती है।",
+     "explanation_hi": "गिनती में 8, 3 के बाद आता है, इसलिए 8 बड़ा है।",
+     "visual": {
+      "type": "compare",
+      "values": [
+       3,
+       8
+      ]
+     },
+     "position": 2
+    },
+    {
+     "difficulty": 1,
+     "kind": "compare",
+     "prompt_hi": "6 और 1 में कौन सी संख्या बड़ी है?",
+     "prompt_en": "Which is bigger, 6 or 1?",
+     "operands": {
+      "a": 6,
+      "b": 1
+     },
+     "expected_answer": 6,
+     "hint_hi": "गिनती में जो संख्या बाद में आती है, वह बड़ी होती है।",
+     "explanation_hi": "गिनती में 6, 1 के बाद आता है, इसलिए 6 बड़ा है।",
+     "visual": {
+      "type": "compare",
+      "values": [
+       6,
+       1
+      ]
+     },
+     "position": 3
+    },
+    {
+     "difficulty": 1,
+     "kind": "compare",
+     "prompt_hi": "5 और 9 में कौन सी संख्या बड़ी है?",
+     "prompt_en": "Which is bigger, 5 or 9?",
+     "operands": {
+      "a": 5,
+      "b": 9
+     },
+     "expected_answer": 9,
+     "hint_hi": "गिनती में जो संख्या बाद में आती है, वह बड़ी होती है।",
+     "explanation_hi": "गिनती में 9, 5 के बाद आता है, इसलिए 9 बड़ा है।",
+     "visual": {
+      "type": "compare",
+      "values": [
+       5,
+       9
+      ]
+     },
+     "position": 4
+    },
+    {
+     "difficulty": 2,
+     "kind": "compare",
+     "prompt_hi": "7 और 12 में कौन सी संख्या बड़ी है?",
+     "prompt_en": "Which is bigger, 7 or 12?",
+     "operands": {
+      "a": 7,
+      "b": 12
+     },
+     "expected_answer": 12,
+     "hint_hi": "गिनती में जो संख्या बाद में आती है, वह बड़ी होती है।",
+     "explanation_hi": "गिनती में 12, 7 के बाद आता है, इसलिए 12 बड़ा है।",
+     "visual": {
+      "type": "compare",
+      "values": [
+       7,
+       12
+      ]
+     },
+     "position": 5
+    },
+    {
+     "difficulty": 2,
+     "kind": "compare",
+     "prompt_hi": "14 और 9 में कौन सी संख्या बड़ी है?",
+     "prompt_en": "Which is bigger, 14 or 9?",
+     "operands": {
+      "a": 14,
+      "b": 9
+     },
+     "expected_answer": 14,
+     "hint_hi": "गिनती में जो संख्या बाद में आती है, वह बड़ी होती है।",
+     "explanation_hi": "गिनती में 14, 9 के बाद आता है, इसलिए 14 बड़ा है।",
+     "visual": {
+      "type": "compare",
+      "values": [
+       14,
+       9
+      ]
+     },
+     "position": 6
+    },
+    {
+     "difficulty": 2,
+     "kind": "compare",
+     "prompt_hi": "11 और 16 में कौन सी संख्या बड़ी है?",
+     "prompt_en": "Which is bigger, 11 or 16?",
+     "operands": {
+      "a": 11,
+      "b": 16
+     },
+     "expected_answer": 16,
+     "hint_hi": "गिनती में जो संख्या बाद में आती है, वह बड़ी होती है।",
+     "explanation_hi": "गिनती में 16, 11 के बाद आता है, इसलिए 16 बड़ा है।",
+     "visual": {
+      "type": "compare",
+      "values": [
+       11,
+       16
+      ]
+     },
+     "position": 7
+    },
+    {
+     "difficulty": 2,
+     "kind": "compare",
+     "prompt_hi": "18 और 13 में कौन सी संख्या बड़ी है?",
+     "prompt_en": "Which is bigger, 18 or 13?",
+     "operands": {
+      "a": 18,
+      "b": 13
+     },
+     "expected_answer": 18,
+     "hint_hi": "गिनती में जो संख्या बाद में आती है, वह बड़ी होती है।",
+     "explanation_hi": "गिनती में 18, 13 के बाद आता है, इसलिए 18 बड़ा है।",
+     "visual": {
+      "type": "compare",
+      "values": [
+       18,
+       13
+      ]
+     },
+     "position": 8
+    },
+    {
+     "difficulty": 2,
+     "kind": "compare",
+     "prompt_hi": "10 और 6 में कौन सी संख्या बड़ी है?",
+     "prompt_en": "Which is bigger, 10 or 6?",
+     "operands": {
+      "a": 10,
+      "b": 6
+     },
+     "expected_answer": 10,
+     "hint_hi": "गिनती में जो संख्या बाद में आती है, वह बड़ी होती है।",
+     "explanation_hi": "गिनती में 10, 6 के बाद आता है, इसलिए 10 बड़ा है।",
+     "visual": {
+      "type": "compare",
+      "values": [
+       10,
+       6
+      ]
+     },
+     "position": 9
+    },
+    {
+     "difficulty": 3,
+     "kind": "compare",
+     "prompt_hi": "17 और 19 में कौन सी संख्या बड़ी है?",
+     "prompt_en": "Which is bigger, 17 or 19?",
+     "operands": {
+      "a": 17,
+      "b": 19
+     },
+     "expected_answer": 19,
+     "hint_hi": "गिनती में जो संख्या बाद में आती है, वह बड़ी होती है।",
+     "explanation_hi": "गिनती में 19, 17 के बाद आता है, इसलिए 19 बड़ा है।",
+     "visual": {
+      "type": "compare",
+      "values": [
+       17,
+       19
+      ]
+     },
+     "position": 10
+    },
+    {
+     "difficulty": 3,
+     "kind": "compare",
+     "prompt_hi": "16 और 15 में कौन सी संख्या बड़ी है?",
+     "prompt_en": "Which is bigger, 16 or 15?",
+     "operands": {
+      "a": 16,
+      "b": 15
+     },
+     "expected_answer": 16,
+     "hint_hi": "गिनती में जो संख्या बाद में आती है, वह बड़ी होती है।",
+     "explanation_hi": "गिनती में 16, 15 के बाद आता है, इसलिए 16 बड़ा है।",
+     "visual": {
+      "type": "compare",
+      "values": [
+       16,
+       15
+      ]
+     },
+     "position": 11
+    },
+    {
+     "difficulty": 3,
+     "kind": "compare",
+     "prompt_hi": "12 और 13 में कौन सी संख्या बड़ी है?",
+     "prompt_en": "Which is bigger, 12 or 13?",
+     "operands": {
+      "a": 12,
+      "b": 13
+     },
+     "expected_answer": 13,
+     "hint_hi": "गिनती में जो संख्या बाद में आती है, वह बड़ी होती है।",
+     "explanation_hi": "गिनती में 13, 12 के बाद आता है, इसलिए 13 बड़ा है।",
+     "visual": {
+      "type": "compare",
+      "values": [
+       12,
+       13
+      ]
+     },
+     "position": 12
+    },
+    {
+     "difficulty": 3,
+     "kind": "compare",
+     "prompt_hi": "20 और 18 में कौन सी संख्या बड़ी है?",
+     "prompt_en": "Which is bigger, 20 or 18?",
+     "operands": {
+      "a": 20,
+      "b": 18
+     },
+     "expected_answer": 20,
+     "hint_hi": "गिनती में जो संख्या बाद में आती है, वह बड़ी होती है।",
+     "explanation_hi": "गिनती में 20, 18 के बाद आता है, इसलिए 20 बड़ा है।",
+     "visual": {
+      "type": "compare",
+      "values": [
+       20,
+       18
+      ]
+     },
+     "position": 13
+    },
+    {
+     "difficulty": 3,
+     "kind": "compare",
+     "prompt_hi": "14 और 19 में कौन सी संख्या बड़ी है?",
+     "prompt_en": "Which is bigger, 14 or 19?",
+     "operands": {
+      "a": 14,
+      "b": 19
+     },
+     "expected_answer": 19,
+     "hint_hi": "गिनती में जो संख्या बाद में आती है, वह बड़ी होती है।",
+     "explanation_hi": "गिनती में 19, 14 के बाद आता है, इसलिए 19 बड़ा है।",
+     "visual": {
+      "type": "compare",
+      "values": [
+       14,
+       19
+      ]
+     },
+     "position": 14
+    }
+   ]
+  }
+ },
+ {
+  "skill": {
+   "code": "place_value_tens",
+   "name_en": "Tens and ones",
+   "name_hi": "दहाई और इकाई",
+   "level": "developing",
+   "grade_band": "2",
+   "sort_order": 3,
+   "curriculum_refs": [
+    "Informed by NIPUN Bharat numeracy goals (Grade 2)",
+    "ASER two-digit number recognition"
+   ],
+   "description_hi": "बच्चे 99 तक की संख्या में दहाई और इकाई पहचान पाएँ।"
+  },
+  "lesson": {
+   "code": "place_value_tens_v1",
+   "title_hi": "दहाई और इकाई",
+   "title_en": "Tens and ones",
+   "objective_hi": "बच्चे 99 तक की संख्या में दहाई और इकाई पहचान पाएँ।",
+   "intro_hi": "नमस्ते बच्चो! मैं बोलती टोली हूँ। आज हम साथ में दहाई और इकाई का अभ्यास करेंगे। मैं सवाल पूछूँगी, तुम सब मिलकर सोचो और फिर एक साथ जवाब बोलो।",
+   "completion_criteria": {
+    "target_minutes": 15,
+    "min_questions": 6
+   },
+   "questions": [
+    {
+     "difficulty": 1,
+     "kind": "place_value",
+     "prompt_hi": "20 में कितनी दहाइयाँ हैं?",
+     "prompt_en": "How many tens are in 20?",
+     "operands": {
+      "n": 20,
+      "ask": "tens"
+     },
+     "expected_answer": 2,
+     "hint_hi": "दस तीलियों का एक बंडल एक दहाई होता है। अकेली तीलियाँ इकाई होती हैं।",
+     "explanation_hi": "20 में 2 बंडल यानी 2 दहाई, और 0 अकेली तीलियाँ यानी 0 इकाई हैं।",
+     "visual": {
+      "type": "bundles",
+      "tens": 2,
+      "ones": 0
+     },
+     "position": 0
+    },
+    {
+     "difficulty": 1,
+     "kind": "place_value",
+     "prompt_hi": "30 में कितनी दहाइयाँ हैं?",
+     "prompt_en": "How many tens are in 30?",
+     "operands": {
+      "n": 30,
+      "ask": "tens"
+     },
+     "expected_answer": 3,
+     "hint_hi": "दस तीलियों का एक बंडल एक दहाई होता है। अकेली तीलियाँ इकाई होती हैं।",
+     "explanation_hi": "30 में 3 बंडल यानी 3 दहाई, और 0 अकेली तीलियाँ यानी 0 इकाई हैं।",
+     "visual": {
+      "type": "bundles",
+      "tens": 3,
+      "ones": 0
+     },
+     "position": 1
+    },
+    {
+     "difficulty": 1,
+     "kind": "place_value",
+     "prompt_hi": "14 में कितनी दहाइयाँ हैं?",
+     "prompt_en": "How many tens are in 14?",
+     "operands": {
+      "n": 14,
+      "ask": "tens"
+     },
+     "expected_answer": 1,
+     "hint_hi": "दस तीलियों का एक बंडल एक दहाई होता है। अकेली तीलियाँ इकाई होती हैं।",
+     "explanation_hi": "14 में 1 बंडल यानी 1 दहाई, और 4 अकेली तीलियाँ यानी 4 इकाई हैं।",
+     "visual": {
+      "type": "bundles",
+      "tens": 1,
+      "ones": 4
+     },
+     "position": 2
+    },
+    {
+     "difficulty": 1,
+     "kind": "place_value",
+     "prompt_hi": "50 में कितनी दहाइयाँ हैं?",
+     "prompt_en": "How many tens are in 50?",
+     "operands": {
+      "n": 50,
+      "ask": "tens"
+     },
+     "expected_answer": 5,
+     "hint_hi": "दस तीलियों का एक बंडल एक दहाई होता है। अकेली तीलियाँ इकाई होती हैं।",
+     "explanation_hi": "50 में 5 बंडल यानी 5 दहाई, और 0 अकेली तीलियाँ यानी 0 इकाई हैं।",
+     "visual": {
+      "type": "bundles",
+      "tens": 5,
+      "ones": 0
+     },
+     "position": 3
+    },
+    {
+     "difficulty": 1,
+     "kind": "place_value",
+     "prompt_hi": "12 में कितनी इकाइयाँ हैं?",
+     "prompt_en": "How many ones are in 12?",
+     "operands": {
+      "n": 12,
+      "ask": "ones"
+     },
+     "expected_answer": 2,
+     "hint_hi": "दस तीलियों का एक बंडल एक दहाई होता है। अकेली तीलियाँ इकाई होती हैं।",
+     "explanation_hi": "12 में 1 बंडल यानी 1 दहाई, और 2 अकेली तीलियाँ यानी 2 इकाई हैं।",
+     "visual": {
+      "type": "bundles",
+      "tens": 1,
+      "ones": 2
+     },
+     "position": 4
+    },
+    {
+     "difficulty": 2,
+     "kind": "place_value",
+     "prompt_hi": "34 में कितनी दहाइयाँ हैं?",
+     "prompt_en": "How many tens are in 34?",
+     "operands": {
+      "n": 34,
+      "ask": "tens"
+     },
+     "expected_answer": 3,
+     "hint_hi": "दस तीलियों का एक बंडल एक दहाई होता है। अकेली तीलियाँ इकाई होती हैं।",
+     "explanation_hi": "34 में 3 बंडल यानी 3 दहाई, और 4 अकेली तीलियाँ यानी 4 इकाई हैं।",
+     "visual": {
+      "type": "bundles",
+      "tens": 3,
+      "ones": 4
+     },
+     "position": 5
+    },
+    {
+     "difficulty": 2,
+     "kind": "place_value",
+     "prompt_hi": "47 में कितनी दहाइयाँ हैं?",
+     "prompt_en": "How many tens are in 47?",
+     "operands": {
+      "n": 47,
+      "ask": "tens"
+     },
+     "expected_answer": 4,
+     "hint_hi": "दस तीलियों का एक बंडल एक दहाई होता है। अकेली तीलियाँ इकाई होती हैं।",
+     "explanation_hi": "47 में 4 बंडल यानी 4 दहाई, और 7 अकेली तीलियाँ यानी 7 इकाई हैं।",
+     "visual": {
+      "type": "bundles",
+      "tens": 4,
+      "ones": 7
+     },
+     "position": 6
+    },
+    {
+     "difficulty": 2,
+     "kind": "place_value",
+     "prompt_hi": "26 में कितनी इकाइयाँ हैं?",
+     "prompt_en": "How many ones are in 26?",
+     "operands": {
+      "n": 26,
+      "ask": "ones"
+     },
+     "expected_answer": 6,
+     "hint_hi": "दस तीलियों का एक बंडल एक दहाई होता है। अकेली तीलियाँ इकाई होती हैं।",
+     "explanation_hi": "26 में 2 बंडल यानी 2 दहाई, और 6 अकेली तीलियाँ यानी 6 इकाई हैं।",
+     "visual": {
+      "type": "bundles",
+      "tens": 2,
+      "ones": 6
+     },
+     "position": 7
+    },
+    {
+     "difficulty": 2,
+     "kind": "place_value",
+     "prompt_hi": "58 में कितनी इकाइयाँ हैं?",
+     "prompt_en": "How many ones are in 58?",
+     "operands": {
+      "n": 58,
+      "ask": "ones"
+     },
+     "expected_answer": 8,
+     "hint_hi": "दस तीलियों का एक बंडल एक दहाई होता है। अकेली तीलियाँ इकाई होती हैं।",
+     "explanation_hi": "58 में 5 बंडल यानी 5 दहाई, और 8 अकेली तीलियाँ यानी 8 इकाई हैं।",
+     "visual": {
+      "type": "bundles",
+      "tens": 5,
+      "ones": 8
+     },
+     "position": 8
+    },
+    {
+     "difficulty": 2,
+     "kind": "place_value",
+     "prompt_hi": "71 में कितनी दहाइयाँ हैं?",
+     "prompt_en": "How many tens are in 71?",
+     "operands": {
+      "n": 71,
+      "ask": "tens"
+     },
+     "expected_answer": 7,
+     "hint_hi": "दस तीलियों का एक बंडल एक दहाई होता है। अकेली तीलियाँ इकाई होती हैं।",
+     "explanation_hi": "71 में 7 बंडल यानी 7 दहाई, और 1 अकेली तीलियाँ यानी 1 इकाई हैं।",
+     "visual": {
+      "type": "bundles",
+      "tens": 7,
+      "ones": 1
+     },
+     "position": 9
+    },
+    {
+     "difficulty": 3,
+     "kind": "place_value",
+     "prompt_hi": "63 में कितनी इकाइयाँ हैं?",
+     "prompt_en": "How many ones are in 63?",
+     "operands": {
+      "n": 63,
+      "ask": "ones"
+     },
+     "expected_answer": 3,
+     "hint_hi": "दस तीलियों का एक बंडल एक दहाई होता है। अकेली तीलियाँ इकाई होती हैं।",
+     "explanation_hi": "63 में 6 बंडल यानी 6 दहाई, और 3 अकेली तीलियाँ यानी 3 इकाई हैं।",
+     "visual": {
+      "type": "bundles",
+      "tens": 6,
+      "ones": 3
+     },
+     "position": 10
+    },
+    {
+     "difficulty": 3,
+     "kind": "place_value",
+     "prompt_hi": "89 में कितनी दहाइयाँ हैं?",
+     "prompt_en": "How many tens are in 89?",
+     "operands": {
+      "n": 89,
+      "ask": "tens"
+     },
+     "expected_answer": 8,
+     "hint_hi": "दस तीलियों का एक बंडल एक दहाई होता है। अकेली तीलियाँ इकाई होती हैं।",
+     "explanation_hi": "89 में 8 बंडल यानी 8 दहाई, और 9 अकेली तीलियाँ यानी 9 इकाई हैं।",
+     "visual": {
+      "type": "bundles",
+      "tens": 8,
+      "ones": 9
+     },
+     "position": 11
+    },
+    {
+     "difficulty": 3,
+     "kind": "place_value",
+     "prompt_hi": "45 में कितनी इकाइयाँ हैं?",
+     "prompt_en": "How many ones are in 45?",
+     "operands": {
+      "n": 45,
+      "ask": "ones"
+     },
+     "expected_answer": 5,
+     "hint_hi": "दस तीलियों का एक बंडल एक दहाई होता है। अकेली तीलियाँ इकाई होती हैं।",
+     "explanation_hi": "45 में 4 बंडल यानी 4 दहाई, और 5 अकेली तीलियाँ यानी 5 इकाई हैं।",
+     "visual": {
+      "type": "bundles",
+      "tens": 4,
+      "ones": 5
+     },
+     "position": 12
+    },
+    {
+     "difficulty": 3,
+     "kind": "place_value",
+     "prompt_hi": "92 में कितनी दहाइयाँ हैं?",
+     "prompt_en": "How many tens are in 92?",
+     "operands": {
+      "n": 92,
+      "ask": "tens"
+     },
+     "expected_answer": 9,
+     "hint_hi": "दस तीलियों का एक बंडल एक दहाई होता है। अकेली तीलियाँ इकाई होती हैं।",
+     "explanation_hi": "92 में 9 बंडल यानी 9 दहाई, और 2 अकेली तीलियाँ यानी 2 इकाई हैं।",
+     "visual": {
+      "type": "bundles",
+      "tens": 9,
+      "ones": 2
+     },
+     "position": 13
+    },
+    {
+     "difficulty": 3,
+     "kind": "place_value",
+     "prompt_hi": "37 में कितनी इकाइयाँ हैं?",
+     "prompt_en": "How many ones are in 37?",
+     "operands": {
+      "n": 37,
+      "ask": "ones"
+     },
+     "expected_answer": 7,
+     "hint_hi": "दस तीलियों का एक बंडल एक दहाई होता है। अकेली तीलियाँ इकाई होती हैं।",
+     "explanation_hi": "37 में 3 बंडल यानी 3 दहाई, और 7 अकेली तीलियाँ यानी 7 इकाई हैं।",
+     "visual": {
+      "type": "bundles",
+      "tens": 3,
+      "ones": 7
+     },
+     "position": 14
+    }
+   ]
+  }
+ },
+ {
+  "skill": {
+   "code": "add_within_10",
+   "name_en": "Addition within 10",
+   "name_hi": "10 तक जोड़",
+   "level": "developing",
+   "grade_band": "1-2",
+   "sort_order": 4,
+   "curriculum_refs": [
+    "Informed by NIPUN Bharat numeracy goals (Grade 1)",
+    "NCERT Math-Magic Class 1"
+   ],
+   "description_hi": "बच्चे चीज़ों के दो समूह मिलाकर 10 तक जोड़ पाएँ।"
+  },
+  "lesson": {
+   "code": "add_within_10_v1",
+   "title_hi": "10 तक जोड़",
+   "title_en": "Addition within 10",
+   "objective_hi": "बच्चे चीज़ों के दो समूह मिलाकर 10 तक जोड़ पाएँ।",
+   "intro_hi": "नमस्ते बच्चो! मैं बोलती टोली हूँ। आज हम साथ में जोड़ना का अभ्यास करेंगे। मैं सवाल पूछूँगी, तुम सब मिलकर सोचो और फिर एक साथ जवाब बोलो।",
+   "completion_criteria": {
+    "target_minutes": 15,
+    "min_questions": 6
+   },
+   "questions": [
+    {
+     "difficulty": 1,
+     "kind": "add",
+     "prompt_hi": "यहाँ 2 सेब हैं, और यहाँ 1 सेब है। कुल कितने सेब हुए?",
+     "prompt_en": "Here are 2 and here are 1 apples. How many in all?",
+     "operands": {
+      "a": 2,
+      "b": 1
+     },
+     "expected_answer": 3,
+     "hint_hi": "2 याद रखो, फिर दूसरे समूह को आगे गिनो।",
+     "explanation_hi": "2 के आगे गिनो: तीन। 2 और 1 मिलकर 3 होते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "apple",
+      "groups": [
+       2,
+       1
+      ],
+      "op": "+"
+     },
+     "position": 0
+    },
+    {
+     "difficulty": 1,
+     "kind": "add",
+     "prompt_hi": "यहाँ 1 गेंद है, और यहाँ 3 गेंदें हैं। कुल कितनी गेंदें हुईं?",
+     "prompt_en": "Here are 1 and here are 3 balls. How many in all?",
+     "operands": {
+      "a": 1,
+      "b": 3
+     },
+     "expected_answer": 4,
+     "hint_hi": "1 याद रखो, फिर दूसरे समूह को आगे गिनो।",
+     "explanation_hi": "1 के आगे गिनो: दो, तीन, चार। 1 और 3 मिलकर 4 होते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "ball",
+      "groups": [
+       1,
+       3
+      ],
+      "op": "+"
+     },
+     "position": 1
+    },
+    {
+     "difficulty": 1,
+     "kind": "add",
+     "prompt_hi": "यहाँ 2 आम हैं, और यहाँ 2 आम हैं। कुल कितने आम हुए?",
+     "prompt_en": "Here are 2 and here are 2 mangoes. How many in all?",
+     "operands": {
+      "a": 2,
+      "b": 2
+     },
+     "expected_answer": 4,
+     "hint_hi": "2 याद रखो, फिर दूसरे समूह को आगे गिनो।",
+     "explanation_hi": "2 के आगे गिनो: तीन, चार। 2 और 2 मिलकर 4 होते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "mango",
+      "groups": [
+       2,
+       2
+      ],
+      "op": "+"
+     },
+     "position": 2
+    },
+    {
+     "difficulty": 1,
+     "kind": "add",
+     "prompt_hi": "यहाँ 3 लड्डू हैं, और यहाँ 1 लड्डू है। कुल कितने लड्डू हुए?",
+     "prompt_en": "Here are 3 and here are 1 laddoos. How many in all?",
+     "operands": {
+      "a": 3,
+      "b": 1
+     },
+     "expected_answer": 4,
+     "hint_hi": "3 याद रखो, फिर दूसरे समूह को आगे गिनो।",
+     "explanation_hi": "3 के आगे गिनो: चार। 3 और 1 मिलकर 4 होते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "laddoo",
+      "groups": [
+       3,
+       1
+      ],
+      "op": "+"
+     },
+     "position": 3
+    },
+    {
+     "difficulty": 1,
+     "kind": "add",
+     "prompt_hi": "यहाँ 2 पत्ते हैं, और यहाँ 3 पत्ते हैं। कुल कितने पत्ते हुए?",
+     "prompt_en": "Here are 2 and here are 3 leaves. How many in all?",
+     "operands": {
+      "a": 2,
+      "b": 3
+     },
+     "expected_answer": 5,
+     "hint_hi": "2 याद रखो, फिर दूसरे समूह को आगे गिनो।",
+     "explanation_hi": "2 के आगे गिनो: तीन, चार, पांच। 2 और 3 मिलकर 5 होते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "leaf",
+      "groups": [
+       2,
+       3
+      ],
+      "op": "+"
+     },
+     "position": 4
+    },
+    {
+     "difficulty": 2,
+     "kind": "add",
+     "prompt_hi": "यहाँ 3 सेब हैं, और यहाँ 2 सेब हैं। कुल कितने सेब हुए?",
+     "prompt_en": "Here are 3 and here are 2 apples. How many in all?",
+     "operands": {
+      "a": 3,
+      "b": 2
+     },
+     "expected_answer": 5,
+     "hint_hi": "3 याद रखो, फिर दूसरे समूह को आगे गिनो।",
+     "explanation_hi": "3 के आगे गिनो: चार, पांच। 3 और 2 मिलकर 5 होते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "apple",
+      "groups": [
+       3,
+       2
+      ],
+      "op": "+"
+     },
+     "position": 5
+    },
+    {
+     "difficulty": 2,
+     "kind": "add",
+     "prompt_hi": "यहाँ 4 गेंदें हैं, और यहाँ 3 गेंदें हैं। कुल कितनी गेंदें हुईं?",
+     "prompt_en": "Here are 4 and here are 3 balls. How many in all?",
+     "operands": {
+      "a": 4,
+      "b": 3
+     },
+     "expected_answer": 7,
+     "hint_hi": "4 याद रखो, फिर दूसरे समूह को आगे गिनो।",
+     "explanation_hi": "4 के आगे गिनो: पांच, छह, सात। 4 और 3 मिलकर 7 होते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "ball",
+      "groups": [
+       4,
+       3
+      ],
+      "op": "+"
+     },
+     "position": 6
+    },
+    {
+     "difficulty": 2,
+     "kind": "add",
+     "prompt_hi": "यहाँ 5 तीलियाँ हैं, और यहाँ 2 तीलियाँ हैं। कुल कितनी तीलियाँ हुईं?",
+     "prompt_en": "Here are 5 and here are 2 sticks. How many in all?",
+     "operands": {
+      "a": 5,
+      "b": 2
+     },
+     "expected_answer": 7,
+     "hint_hi": "5 याद रखो, फिर दूसरे समूह को आगे गिनो।",
+     "explanation_hi": "5 के आगे गिनो: छह, सात। 5 और 2 मिलकर 7 होते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "stick",
+      "groups": [
+       5,
+       2
+      ],
+      "op": "+"
+     },
+     "position": 7
+    },
+    {
+     "difficulty": 2,
+     "kind": "add",
+     "prompt_hi": "यहाँ 3 आम हैं, और यहाँ 4 आम हैं। कुल कितने आम हुए?",
+     "prompt_en": "Here are 3 and here are 4 mangoes. How many in all?",
+     "operands": {
+      "a": 3,
+      "b": 4
+     },
+     "expected_answer": 7,
+     "hint_hi": "3 याद रखो, फिर दूसरे समूह को आगे गिनो।",
+     "explanation_hi": "3 के आगे गिनो: चार, पांच, छह, सात। 3 और 4 मिलकर 7 होते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "mango",
+      "groups": [
+       3,
+       4
+      ],
+      "op": "+"
+     },
+     "position": 8
+    },
+    {
+     "difficulty": 2,
+     "kind": "add",
+     "prompt_hi": "यहाँ 6 लड्डू हैं, और यहाँ 2 लड्डू हैं। कुल कितने लड्डू हुए?",
+     "prompt_en": "Here are 6 and here are 2 laddoos. How many in all?",
+     "operands": {
+      "a": 6,
+      "b": 2
+     },
+     "expected_answer": 8,
+     "hint_hi": "6 याद रखो, फिर दूसरे समूह को आगे गिनो।",
+     "explanation_hi": "6 के आगे गिनो: सात, आठ। 6 और 2 मिलकर 8 होते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "laddoo",
+      "groups": [
+       6,
+       2
+      ],
+      "op": "+"
+     },
+     "position": 9
+    },
+    {
+     "difficulty": 3,
+     "kind": "add",
+     "prompt_hi": "यहाँ 6 गेंदें हैं, और यहाँ 3 गेंदें हैं। कुल कितनी गेंदें हुईं?",
+     "prompt_en": "Here are 6 and here are 3 balls. How many in all?",
+     "operands": {
+      "a": 6,
+      "b": 3
+     },
+     "expected_answer": 9,
+     "hint_hi": "6 याद रखो, फिर दूसरे समूह को आगे गिनो।",
+     "explanation_hi": "6 के आगे गिनो: सात, आठ, नौ। 6 और 3 मिलकर 9 होते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "ball",
+      "groups": [
+       6,
+       3
+      ],
+      "op": "+"
+     },
+     "position": 10
+    },
+    {
+     "difficulty": 3,
+     "kind": "add",
+     "prompt_hi": "यहाँ 5 सेब हैं, और यहाँ 4 सेब हैं। कुल कितने सेब हुए?",
+     "prompt_en": "Here are 5 and here are 4 apples. How many in all?",
+     "operands": {
+      "a": 5,
+      "b": 4
+     },
+     "expected_answer": 9,
+     "hint_hi": "5 याद रखो, फिर दूसरे समूह को आगे गिनो।",
+     "explanation_hi": "5 के आगे गिनो: छह, सात, आठ, नौ। 5 और 4 मिलकर 9 होते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "apple",
+      "groups": [
+       5,
+       4
+      ],
+      "op": "+"
+     },
+     "position": 11
+    },
+    {
+     "difficulty": 3,
+     "kind": "add",
+     "prompt_hi": "यहाँ 7 तीलियाँ हैं, और यहाँ 3 तीलियाँ हैं। कुल कितनी तीलियाँ हुईं?",
+     "prompt_en": "Here are 7 and here are 3 sticks. How many in all?",
+     "operands": {
+      "a": 7,
+      "b": 3
+     },
+     "expected_answer": 10,
+     "hint_hi": "7 याद रखो, फिर दूसरे समूह को आगे गिनो।",
+     "explanation_hi": "7 के आगे गिनो: आठ, नौ, दस। 7 और 3 मिलकर 10 होते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "stick",
+      "groups": [
+       7,
+       3
+      ],
+      "op": "+"
+     },
+     "position": 12
+    },
+    {
+     "difficulty": 3,
+     "kind": "add",
+     "prompt_hi": "यहाँ 4 पत्ते हैं, और यहाँ 6 पत्ते हैं। कुल कितने पत्ते हुए?",
+     "prompt_en": "Here are 4 and here are 6 leaves. How many in all?",
+     "operands": {
+      "a": 4,
+      "b": 6
+     },
+     "expected_answer": 10,
+     "hint_hi": "4 याद रखो, फिर दूसरे समूह को आगे गिनो।",
+     "explanation_hi": "4 के आगे गिनो: पांच, छह, सात, आठ, नौ, दस। 4 और 6 मिलकर 10 होते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "leaf",
+      "groups": [
+       4,
+       6
+      ],
+      "op": "+"
+     },
+     "position": 13
+    },
+    {
+     "difficulty": 3,
+     "kind": "add",
+     "prompt_hi": "यहाँ 6 आम हैं, और यहाँ 4 आम हैं। कुल कितने आम हुए?",
+     "prompt_en": "Here are 6 and here are 4 mangoes. How many in all?",
+     "operands": {
+      "a": 6,
+      "b": 4
+     },
+     "expected_answer": 10,
+     "hint_hi": "6 याद रखो, फिर दूसरे समूह को आगे गिनो।",
+     "explanation_hi": "6 के आगे गिनो: सात, आठ, नौ, दस। 6 और 4 मिलकर 10 होते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "mango",
+      "groups": [
+       6,
+       4
+      ],
+      "op": "+"
+     },
+     "position": 14
+    }
+   ]
+  }
+ },
+ {
+  "skill": {
+   "code": "sub_within_10",
+   "name_en": "Subtraction within 10",
+   "name_hi": "10 तक घटाव",
+   "level": "advancing",
+   "grade_band": "1-2",
+   "sort_order": 5,
+   "curriculum_refs": [
+    "Informed by NIPUN Bharat numeracy goals (Grade 1-2)",
+    "ASER subtraction task"
+   ],
+   "description_hi": "बच्चे 10 तक की चीज़ों में से कुछ हटाकर बची हुई चीज़ें बता पाएँ।"
+  },
+  "lesson": {
+   "code": "sub_within_10_v1",
+   "title_hi": "10 तक घटाव",
+   "title_en": "Subtraction within 10",
+   "objective_hi": "बच्चे 10 तक की चीज़ों में से कुछ हटाकर बची हुई चीज़ें बता पाएँ।",
+   "intro_hi": "नमस्ते बच्चो! मैं बोलती टोली हूँ। आज हम साथ में घटाना का अभ्यास करेंगे। मैं सवाल पूछूँगी, तुम सब मिलकर सोचो और फिर एक साथ जवाब बोलो।",
+   "completion_criteria": {
+    "target_minutes": 15,
+    "min_questions": 6
+   },
+   "questions": [
+    {
+     "difficulty": 1,
+     "kind": "sub",
+     "prompt_hi": "यहाँ 3 लड्डू हैं। उनमें से 1 लड्डू हटा दिया। अब कितने लड्डू बचे?",
+     "prompt_en": "There are 3 laddoos. 1 are taken away. How many are left?",
+     "operands": {
+      "a": 3,
+      "b": 1
+     },
+     "expected_answer": 2,
+     "hint_hi": "सब गिनो, फिर हटाई गई चीज़ें अलग करो और जो बचा उसे गिनो।",
+     "explanation_hi": "3 से पीछे गिनो: दो। 3 में से 1 हटाने पर 2 बचते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "laddoo",
+      "groups": [
+       3
+      ],
+      "remove": 1,
+      "op": "-"
+     },
+     "position": 0
+    },
+    {
+     "difficulty": 1,
+     "kind": "sub",
+     "prompt_hi": "यहाँ 4 सेब हैं। उनमें से 2 सेब हटा दिए। अब कितने सेब बचे?",
+     "prompt_en": "There are 4 apples. 2 are taken away. How many are left?",
+     "operands": {
+      "a": 4,
+      "b": 2
+     },
+     "expected_answer": 2,
+     "hint_hi": "सब गिनो, फिर हटाई गई चीज़ें अलग करो और जो बचा उसे गिनो।",
+     "explanation_hi": "4 से पीछे गिनो: तीन, दो। 4 में से 2 हटाने पर 2 बचते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "apple",
+      "groups": [
+       4
+      ],
+      "remove": 2,
+      "op": "-"
+     },
+     "position": 1
+    },
+    {
+     "difficulty": 1,
+     "kind": "sub",
+     "prompt_hi": "यहाँ 5 गेंदें हैं। उनमें से 1 गेंद हटा दी। अब कितनी गेंदें बचीं?",
+     "prompt_en": "There are 5 balls. 1 are taken away. How many are left?",
+     "operands": {
+      "a": 5,
+      "b": 1
+     },
+     "expected_answer": 4,
+     "hint_hi": "सब गिनो, फिर हटाई गई चीज़ें अलग करो और जो बचा उसे गिनो।",
+     "explanation_hi": "5 से पीछे गिनो: चार। 5 में से 1 हटाने पर 4 बचते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "ball",
+      "groups": [
+       5
+      ],
+      "remove": 1,
+      "op": "-"
+     },
+     "position": 2
+    },
+    {
+     "difficulty": 1,
+     "kind": "sub",
+     "prompt_hi": "यहाँ 4 आम हैं। उनमें से 1 आम हटा दिया। अब कितने आम बचे?",
+     "prompt_en": "There are 4 mangoes. 1 are taken away. How many are left?",
+     "operands": {
+      "a": 4,
+      "b": 1
+     },
+     "expected_answer": 3,
+     "hint_hi": "सब गिनो, फिर हटाई गई चीज़ें अलग करो और जो बचा उसे गिनो।",
+     "explanation_hi": "4 से पीछे गिनो: तीन। 4 में से 1 हटाने पर 3 बचते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "mango",
+      "groups": [
+       4
+      ],
+      "remove": 1,
+      "op": "-"
+     },
+     "position": 3
+    },
+    {
+     "difficulty": 1,
+     "kind": "sub",
+     "prompt_hi": "यहाँ 5 पत्ते हैं। उनमें से 3 पत्ते हटा दिए। अब कितने पत्ते बचे?",
+     "prompt_en": "There are 5 leaves. 3 are taken away. How many are left?",
+     "operands": {
+      "a": 5,
+      "b": 3
+     },
+     "expected_answer": 2,
+     "hint_hi": "सब गिनो, फिर हटाई गई चीज़ें अलग करो और जो बचा उसे गिनो।",
+     "explanation_hi": "5 से पीछे गिनो: चार, तीन, दो। 5 में से 3 हटाने पर 2 बचते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "leaf",
+      "groups": [
+       5
+      ],
+      "remove": 3,
+      "op": "-"
+     },
+     "position": 4
+    },
+    {
+     "difficulty": 2,
+     "kind": "sub",
+     "prompt_hi": "यहाँ 6 लड्डू हैं। उनमें से 2 लड्डू हटा दिए। अब कितने लड्डू बचे?",
+     "prompt_en": "There are 6 laddoos. 2 are taken away. How many are left?",
+     "operands": {
+      "a": 6,
+      "b": 2
+     },
+     "expected_answer": 4,
+     "hint_hi": "सब गिनो, फिर हटाई गई चीज़ें अलग करो और जो बचा उसे गिनो।",
+     "explanation_hi": "6 से पीछे गिनो: पांच, चार। 6 में से 2 हटाने पर 4 बचते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "laddoo",
+      "groups": [
+       6
+      ],
+      "remove": 2,
+      "op": "-"
+     },
+     "position": 5
+    },
+    {
+     "difficulty": 2,
+     "kind": "sub",
+     "prompt_hi": "यहाँ 7 सेब हैं। उनमें से 3 सेब हटा दिए। अब कितने सेब बचे?",
+     "prompt_en": "There are 7 apples. 3 are taken away. How many are left?",
+     "operands": {
+      "a": 7,
+      "b": 3
+     },
+     "expected_answer": 4,
+     "hint_hi": "सब गिनो, फिर हटाई गई चीज़ें अलग करो और जो बचा उसे गिनो।",
+     "explanation_hi": "7 से पीछे गिनो: छह, पांच, चार। 7 में से 3 हटाने पर 4 बचते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "apple",
+      "groups": [
+       7
+      ],
+      "remove": 3,
+      "op": "-"
+     },
+     "position": 6
+    },
+    {
+     "difficulty": 2,
+     "kind": "sub",
+     "prompt_hi": "यहाँ 8 तीलियाँ हैं। उनमें से 4 तीलियाँ हटा दीं। अब कितनी तीलियाँ बचीं?",
+     "prompt_en": "There are 8 sticks. 4 are taken away. How many are left?",
+     "operands": {
+      "a": 8,
+      "b": 4
+     },
+     "expected_answer": 4,
+     "hint_hi": "सब गिनो, फिर हटाई गई चीज़ें अलग करो और जो बचा उसे गिनो।",
+     "explanation_hi": "8 से पीछे गिनो: सात, छह, पांच, चार। 8 में से 4 हटाने पर 4 बचते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "stick",
+      "groups": [
+       8
+      ],
+      "remove": 4,
+      "op": "-"
+     },
+     "position": 7
+    },
+    {
+     "difficulty": 2,
+     "kind": "sub",
+     "prompt_hi": "यहाँ 6 गेंदें हैं। उनमें से 3 गेंदें हटा दीं। अब कितनी गेंदें बचीं?",
+     "prompt_en": "There are 6 balls. 3 are taken away. How many are left?",
+     "operands": {
+      "a": 6,
+      "b": 3
+     },
+     "expected_answer": 3,
+     "hint_hi": "सब गिनो, फिर हटाई गई चीज़ें अलग करो और जो बचा उसे गिनो।",
+     "explanation_hi": "6 से पीछे गिनो: पांच, चार, तीन। 6 में से 3 हटाने पर 3 बचते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "ball",
+      "groups": [
+       6
+      ],
+      "remove": 3,
+      "op": "-"
+     },
+     "position": 8
+    },
+    {
+     "difficulty": 2,
+     "kind": "sub",
+     "prompt_hi": "यहाँ 7 आम हैं। उनमें से 2 आम हटा दिए। अब कितने आम बचे?",
+     "prompt_en": "There are 7 mangoes. 2 are taken away. How many are left?",
+     "operands": {
+      "a": 7,
+      "b": 2
+     },
+     "expected_answer": 5,
+     "hint_hi": "सब गिनो, फिर हटाई गई चीज़ें अलग करो और जो बचा उसे गिनो।",
+     "explanation_hi": "7 से पीछे गिनो: छह, पांच। 7 में से 2 हटाने पर 5 बचते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "mango",
+      "groups": [
+       7
+      ],
+      "remove": 2,
+      "op": "-"
+     },
+     "position": 9
+    },
+    {
+     "difficulty": 3,
+     "kind": "sub",
+     "prompt_hi": "यहाँ 9 लड्डू हैं। उनमें से 4 लड्डू हटा दिए। अब कितने लड्डू बचे?",
+     "prompt_en": "There are 9 laddoos. 4 are taken away. How many are left?",
+     "operands": {
+      "a": 9,
+      "b": 4
+     },
+     "expected_answer": 5,
+     "hint_hi": "सब गिनो, फिर हटाई गई चीज़ें अलग करो और जो बचा उसे गिनो।",
+     "explanation_hi": "9 से पीछे गिनो: आठ, सात, छह, पांच। 9 में से 4 हटाने पर 5 बचते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "laddoo",
+      "groups": [
+       9
+      ],
+      "remove": 4,
+      "op": "-"
+     },
+     "position": 10
+    },
+    {
+     "difficulty": 3,
+     "kind": "sub",
+     "prompt_hi": "यहाँ 10 सेब हैं। उनमें से 3 सेब हटा दिए। अब कितने सेब बचे?",
+     "prompt_en": "There are 10 apples. 3 are taken away. How many are left?",
+     "operands": {
+      "a": 10,
+      "b": 3
+     },
+     "expected_answer": 7,
+     "hint_hi": "सब गिनो, फिर हटाई गई चीज़ें अलग करो और जो बचा उसे गिनो।",
+     "explanation_hi": "10 से पीछे गिनो: नौ, आठ, सात। 10 में से 3 हटाने पर 7 बचते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "apple",
+      "groups": [
+       10
+      ],
+      "remove": 3,
+      "op": "-"
+     },
+     "position": 11
+    },
+    {
+     "difficulty": 3,
+     "kind": "sub",
+     "prompt_hi": "यहाँ 9 गेंदें हैं। उनमें से 6 गेंदें हटा दीं। अब कितनी गेंदें बचीं?",
+     "prompt_en": "There are 9 balls. 6 are taken away. How many are left?",
+     "operands": {
+      "a": 9,
+      "b": 6
+     },
+     "expected_answer": 3,
+     "hint_hi": "सब गिनो, फिर हटाई गई चीज़ें अलग करो और जो बचा उसे गिनो।",
+     "explanation_hi": "9 से पीछे गिनो: आठ, सात, छह, पांच, चार, तीन। 9 में से 6 हटाने पर 3 बचते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "ball",
+      "groups": [
+       9
+      ],
+      "remove": 6,
+      "op": "-"
+     },
+     "position": 12
+    },
+    {
+     "difficulty": 3,
+     "kind": "sub",
+     "prompt_hi": "यहाँ 10 तीलियाँ हैं। उनमें से 7 तीलियाँ हटा दीं। अब कितनी तीलियाँ बचीं?",
+     "prompt_en": "There are 10 sticks. 7 are taken away. How many are left?",
+     "operands": {
+      "a": 10,
+      "b": 7
+     },
+     "expected_answer": 3,
+     "hint_hi": "सब गिनो, फिर हटाई गई चीज़ें अलग करो और जो बचा उसे गिनो।",
+     "explanation_hi": "10 से पीछे गिनो: नौ, आठ, सात, छह, पांच, चार, तीन। 10 में से 7 हटाने पर 3 बचते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "stick",
+      "groups": [
+       10
+      ],
+      "remove": 7,
+      "op": "-"
+     },
+     "position": 13
+    },
+    {
+     "difficulty": 3,
+     "kind": "sub",
+     "prompt_hi": "यहाँ 8 पत्ते हैं। उनमें से 5 पत्ते हटा दिए। अब कितने पत्ते बचे?",
+     "prompt_en": "There are 8 leaves. 5 are taken away. How many are left?",
+     "operands": {
+      "a": 8,
+      "b": 5
+     },
+     "expected_answer": 3,
+     "hint_hi": "सब गिनो, फिर हटाई गई चीज़ें अलग करो और जो बचा उसे गिनो।",
+     "explanation_hi": "8 से पीछे गिनो: सात, छह, पांच, चार, तीन। 8 में से 5 हटाने पर 3 बचते हैं।",
+     "visual": {
+      "type": "objects",
+      "object": "leaf",
+      "groups": [
+       8
+      ],
+      "remove": 5,
+      "op": "-"
+     },
+     "position": 14
+    }
+   ]
+  }
+ },
+ {
+  "skill": {
+   "code": "sub_within_20",
+   "name_en": "Subtraction within 20 (bridging 10)",
+   "name_hi": "20 तक घटाव (10 पार करके)",
+   "level": "advancing",
+   "grade_band": "2",
+   "sort_order": 6,
+   "curriculum_refs": [
+    "Informed by NIPUN Bharat numeracy goals (Grade 2)",
+    "ASER subtraction task"
+   ],
+   "description_hi": "बच्चे 20 तक घटाव कर पाएँ, जिसमें 10 को पार करना भी शामिल है।"
+  },
+  "lesson": {
+   "code": "sub_within_20_v1",
+   "title_hi": "20 तक घटाव (10 पार करके)",
+   "title_en": "Subtraction within 20 (bridging 10)",
+   "objective_hi": "बच्चे 20 तक घटाव कर पाएँ, जिसमें 10 को पार करना भी शामिल है।",
+   "intro_hi": "नमस्ते बच्चो! मैं बोलती टोली हूँ। आज हम साथ में 20 तक घटाना का अभ्यास करेंगे। मैं सवाल पूछूँगी, तुम सब मिलकर सोचो और फिर एक साथ जवाब बोलो।",
+   "completion_criteria": {
+    "target_minutes": 15,
+    "min_questions": 6
+   },
+   "questions": [
+    {
+     "difficulty": 1,
+     "kind": "sub",
+     "prompt_hi": "17 में से 4 घटाओ, तो कितना बचेगा?",
+     "prompt_en": "What is 17 minus 4?",
+     "operands": {
+      "a": 17,
+      "b": 4
+     },
+     "expected_answer": 13,
+     "hint_hi": "पहले 10 तक घटाओ, फिर बाकी घटाओ।",
+     "explanation_hi": "17 में से 4 घटाने पर 13 बचता है। 17 से 4 कदम पीछे गिनो।",
+     "visual": {
+      "type": "bundles",
+      "tens": 1,
+      "ones": 7,
+      "remove": 4
+     },
+     "position": 0
+    },
+    {
+     "difficulty": 1,
+     "kind": "sub",
+     "prompt_hi": "15 में से 3 घटाओ, तो कितना बचेगा?",
+     "prompt_en": "What is 15 minus 3?",
+     "operands": {
+      "a": 15,
+      "b": 3
+     },
+     "expected_answer": 12,
+     "hint_hi": "पहले 10 तक घटाओ, फिर बाकी घटाओ।",
+     "explanation_hi": "15 में से 3 घटाने पर 12 बचता है। 15 से 3 कदम पीछे गिनो।",
+     "visual": {
+      "type": "bundles",
+      "tens": 1,
+      "ones": 5,
+      "remove": 3
+     },
+     "position": 1
+    },
+    {
+     "difficulty": 1,
+     "kind": "sub",
+     "prompt_hi": "19 में से 5 घटाओ, तो कितना बचेगा?",
+     "prompt_en": "What is 19 minus 5?",
+     "operands": {
+      "a": 19,
+      "b": 5
+     },
+     "expected_answer": 14,
+     "hint_hi": "पहले 10 तक घटाओ, फिर बाकी घटाओ।",
+     "explanation_hi": "19 में से 5 घटाने पर 14 बचता है। 19 से 5 कदम पीछे गिनो।",
+     "visual": {
+      "type": "bundles",
+      "tens": 1,
+      "ones": 9,
+      "remove": 5
+     },
+     "position": 2
+    },
+    {
+     "difficulty": 1,
+     "kind": "sub",
+     "prompt_hi": "18 में से 6 घटाओ, तो कितना बचेगा?",
+     "prompt_en": "What is 18 minus 6?",
+     "operands": {
+      "a": 18,
+      "b": 6
+     },
+     "expected_answer": 12,
+     "hint_hi": "पहले 10 तक घटाओ, फिर बाकी घटाओ।",
+     "explanation_hi": "18 में से 6 घटाने पर 12 बचता है। 18 से 6 कदम पीछे गिनो।",
+     "visual": {
+      "type": "bundles",
+      "tens": 1,
+      "ones": 8,
+      "remove": 6
+     },
+     "position": 3
+    },
+    {
+     "difficulty": 1,
+     "kind": "sub",
+     "prompt_hi": "16 में से 2 घटाओ, तो कितना बचेगा?",
+     "prompt_en": "What is 16 minus 2?",
+     "operands": {
+      "a": 16,
+      "b": 2
+     },
+     "expected_answer": 14,
+     "hint_hi": "पहले 10 तक घटाओ, फिर बाकी घटाओ।",
+     "explanation_hi": "16 में से 2 घटाने पर 14 बचता है। 16 से 2 कदम पीछे गिनो।",
+     "visual": {
+      "type": "bundles",
+      "tens": 1,
+      "ones": 6,
+      "remove": 2
+     },
+     "position": 4
+    },
+    {
+     "difficulty": 2,
+     "kind": "sub",
+     "prompt_hi": "14 में से 4 घटाओ, तो कितना बचेगा?",
+     "prompt_en": "What is 14 minus 4?",
+     "operands": {
+      "a": 14,
+      "b": 4
+     },
+     "expected_answer": 10,
+     "hint_hi": "पहले 10 तक घटाओ, फिर बाकी घटाओ।",
+     "explanation_hi": "14 में से 4 घटाने पर 10 बचता है। 14 से 4 कदम पीछे गिनो।",
+     "visual": {
+      "type": "bundles",
+      "tens": 1,
+      "ones": 4,
+      "remove": 4
+     },
+     "position": 5
+    },
+    {
+     "difficulty": 2,
+     "kind": "sub",
+     "prompt_hi": "12 में से 2 घटाओ, तो कितना बचेगा?",
+     "prompt_en": "What is 12 minus 2?",
+     "operands": {
+      "a": 12,
+      "b": 2
+     },
+     "expected_answer": 10,
+     "hint_hi": "पहले 10 तक घटाओ, फिर बाकी घटाओ।",
+     "explanation_hi": "12 में से 2 घटाने पर 10 बचता है। 12 से 2 कदम पीछे गिनो।",
+     "visual": {
+      "type": "bundles",
+      "tens": 1,
+      "ones": 2,
+      "remove": 2
+     },
+     "position": 6
+    },
+    {
+     "difficulty": 2,
+     "kind": "sub",
+     "prompt_hi": "15 में से 5 घटाओ, तो कितना बचेगा?",
+     "prompt_en": "What is 15 minus 5?",
+     "operands": {
+      "a": 15,
+      "b": 5
+     },
+     "expected_answer": 10,
+     "hint_hi": "पहले 10 तक घटाओ, फिर बाकी घटाओ।",
+     "explanation_hi": "15 में से 5 घटाने पर 10 बचता है। 15 से 5 कदम पीछे गिनो।",
+     "visual": {
+      "type": "bundles",
+      "tens": 1,
+      "ones": 5,
+      "remove": 5
+     },
+     "position": 7
+    },
+    {
+     "difficulty": 2,
+     "kind": "sub",
+     "prompt_hi": "20 में से 6 घटाओ, तो कितना बचेगा?",
+     "prompt_en": "What is 20 minus 6?",
+     "operands": {
+      "a": 20,
+      "b": 6
+     },
+     "expected_answer": 14,
+     "hint_hi": "पहले 10 तक घटाओ, फिर बाकी घटाओ।",
+     "explanation_hi": "20 में से 6 घटाने पर 14 बचता है। 20 से 6 कदम पीछे गिनो।",
+     "visual": {
+      "type": "bundles",
+      "tens": 2,
+      "ones": 0,
+      "remove": 6
+     },
+     "position": 8
+    },
+    {
+     "difficulty": 2,
+     "kind": "sub",
+     "prompt_hi": "13 में से 3 घटाओ, तो कितना बचेगा?",
+     "prompt_en": "What is 13 minus 3?",
+     "operands": {
+      "a": 13,
+      "b": 3
+     },
+     "expected_answer": 10,
+     "hint_hi": "पहले 10 तक घटाओ, फिर बाकी घटाओ।",
+     "explanation_hi": "13 में से 3 घटाने पर 10 बचता है। 13 से 3 कदम पीछे गिनो।",
+     "visual": {
+      "type": "bundles",
+      "tens": 1,
+      "ones": 3,
+      "remove": 3
+     },
+     "position": 9
+    },
+    {
+     "difficulty": 3,
+     "kind": "sub",
+     "prompt_hi": "13 में से 5 घटाओ, तो कितना बचेगा?",
+     "prompt_en": "What is 13 minus 5?",
+     "operands": {
+      "a": 13,
+      "b": 5
+     },
+     "expected_answer": 8,
+     "hint_hi": "पहले 10 तक घटाओ, फिर बाकी घटाओ।",
+     "explanation_hi": "13 − 5: पहले 3 घटाओ तो 10 बचता है, फिर 2 और घटाओ तो 8 बचता है।",
+     "visual": {
+      "type": "bundles",
+      "tens": 1,
+      "ones": 3,
+      "remove": 5
+     },
+     "position": 10
+    },
+    {
+     "difficulty": 3,
+     "kind": "sub",
+     "prompt_hi": "12 में से 7 घटाओ, तो कितना बचेगा?",
+     "prompt_en": "What is 12 minus 7?",
+     "operands": {
+      "a": 12,
+      "b": 7
+     },
+     "expected_answer": 5,
+     "hint_hi": "पहले 10 तक घटाओ, फिर बाकी घटाओ।",
+     "explanation_hi": "12 − 7: पहले 2 घटाओ तो 10 बचता है, फिर 5 और घटाओ तो 5 बचता है।",
+     "visual": {
+      "type": "bundles",
+      "tens": 1,
+      "ones": 2,
+      "remove": 7
+     },
+     "position": 11
+    },
+    {
+     "difficulty": 3,
+     "kind": "sub",
+     "prompt_hi": "14 में से 6 घटाओ, तो कितना बचेगा?",
+     "prompt_en": "What is 14 minus 6?",
+     "operands": {
+      "a": 14,
+      "b": 6
+     },
+     "expected_answer": 8,
+     "hint_hi": "पहले 10 तक घटाओ, फिर बाकी घटाओ।",
+     "explanation_hi": "14 − 6: पहले 4 घटाओ तो 10 बचता है, फिर 2 और घटाओ तो 8 बचता है।",
+     "visual": {
+      "type": "bundles",
+      "tens": 1,
+      "ones": 4,
+      "remove": 6
+     },
+     "position": 12
+    },
+    {
+     "difficulty": 3,
+     "kind": "sub",
+     "prompt_hi": "11 में से 4 घटाओ, तो कितना बचेगा?",
+     "prompt_en": "What is 11 minus 4?",
+     "operands": {
+      "a": 11,
+      "b": 4
+     },
+     "expected_answer": 7,
+     "hint_hi": "पहले 10 तक घटाओ, फिर बाकी घटाओ।",
+     "explanation_hi": "11 − 4: पहले 1 घटाओ तो 10 बचता है, फिर 3 और घटाओ तो 7 बचता है।",
+     "visual": {
+      "type": "bundles",
+      "tens": 1,
+      "ones": 1,
+      "remove": 4
+     },
+     "position": 13
+    },
+    {
+     "difficulty": 3,
+     "kind": "sub",
+     "prompt_hi": "16 में से 9 घटाओ, तो कितना बचेगा?",
+     "prompt_en": "What is 16 minus 9?",
+     "operands": {
+      "a": 16,
+      "b": 9
+     },
+     "expected_answer": 7,
+     "hint_hi": "पहले 10 तक घटाओ, फिर बाकी घटाओ।",
+     "explanation_hi": "16 − 9: पहले 6 घटाओ तो 10 बचता है, फिर 3 और घटाओ तो 7 बचता है।",
+     "visual": {
+      "type": "bundles",
+      "tens": 1,
+      "ones": 6,
+      "remove": 9
+     },
+     "position": 14
+    }
+   ]
+  }
+ },
+ {
+  "skill": {
+   "code": "add_two_digit",
+   "name_en": "Two-digit addition with regrouping",
+   "name_hi": "दो अंकों का जोड़ (हासिल के साथ)",
+   "level": "advancing",
+   "grade_band": "2-3",
+   "sort_order": 7,
+   "curriculum_refs": [
+    "Informed by NIPUN Bharat numeracy goals (Grade 3)"
+   ],
+   "description_hi": "बच्चे दो अंकों की संख्याएँ जोड़ पाएँ, हासिल के साथ भी।"
+  },
+  "lesson": {
+   "code": "add_two_digit_v1",
+   "title_hi": "दो अंकों का जोड़ (हासिल के साथ)",
+   "title_en": "Two-digit addition with regrouping",
+   "objective_hi": "बच्चे दो अंकों की संख्याएँ जोड़ पाएँ, हासिल के साथ भी।",
+   "intro_hi": "नमस्ते बच्चो! मैं बोलती टोली हूँ। आज हम साथ में दो अंकों का जोड़ का अभ्यास करेंगे। मैं सवाल पूछूँगी, तुम सब मिलकर सोचो और फिर एक साथ जवाब बोलो।",
+   "completion_criteria": {
+    "target_minutes": 15,
+    "min_questions": 6
+   },
+   "questions": [
+    {
+     "difficulty": 1,
+     "kind": "add",
+     "prompt_hi": "20 और 10 को जोड़ो। कितना हुआ?",
+     "prompt_en": "Add 20 and 10.",
+     "operands": {
+      "a": 20,
+      "b": 10
+     },
+     "expected_answer": 30,
+     "hint_hi": "पहले इकाई जोड़ो, फिर दहाई। दस इकाई हों तो एक दहाई बना लो।",
+     "explanation_hi": "इकाई: 0 + 0 = 0। दहाई: 2 + 1 = 3। कुल 30।",
+     "visual": {
+      "type": "bundles_add",
+      "a": [
+       2,
+       0
+      ],
+      "b": [
+       1,
+       0
+      ]
+     },
+     "position": 0
+    },
+    {
+     "difficulty": 1,
+     "kind": "add",
+     "prompt_hi": "30 और 20 को जोड़ो। कितना हुआ?",
+     "prompt_en": "Add 30 and 20.",
+     "operands": {
+      "a": 30,
+      "b": 20
+     },
+     "expected_answer": 50,
+     "hint_hi": "पहले इकाई जोड़ो, फिर दहाई। दस इकाई हों तो एक दहाई बना लो।",
+     "explanation_hi": "इकाई: 0 + 0 = 0। दहाई: 3 + 2 = 5। कुल 50।",
+     "visual": {
+      "type": "bundles_add",
+      "a": [
+       3,
+       0
+      ],
+      "b": [
+       2,
+       0
+      ]
+     },
+     "position": 1
+    },
+    {
+     "difficulty": 1,
+     "kind": "add",
+     "prompt_hi": "12 और 5 को जोड़ो। कितना हुआ?",
+     "prompt_en": "Add 12 and 5.",
+     "operands": {
+      "a": 12,
+      "b": 5
+     },
+     "expected_answer": 17,
+     "hint_hi": "पहले इकाई जोड़ो, फिर दहाई। दस इकाई हों तो एक दहाई बना लो।",
+     "explanation_hi": "इकाई: 2 + 5 = 7। दहाई: 1 + 0 = 1। कुल 17।",
+     "visual": {
+      "type": "bundles_add",
+      "a": [
+       1,
+       2
+      ],
+      "b": [
+       0,
+       5
+      ]
+     },
+     "position": 2
+    },
+    {
+     "difficulty": 1,
+     "kind": "add",
+     "prompt_hi": "21 और 4 को जोड़ो। कितना हुआ?",
+     "prompt_en": "Add 21 and 4.",
+     "operands": {
+      "a": 21,
+      "b": 4
+     },
+     "expected_answer": 25,
+     "hint_hi": "पहले इकाई जोड़ो, फिर दहाई। दस इकाई हों तो एक दहाई बना लो।",
+     "explanation_hi": "इकाई: 1 + 4 = 5। दहाई: 2 + 0 = 2। कुल 25।",
+     "visual": {
+      "type": "bundles_add",
+      "a": [
+       2,
+       1
+      ],
+      "b": [
+       0,
+       4
+      ]
+     },
+     "position": 3
+    },
+    {
+     "difficulty": 1,
+     "kind": "add",
+     "prompt_hi": "40 और 30 को जोड़ो। कितना हुआ?",
+     "prompt_en": "Add 40 and 30.",
+     "operands": {
+      "a": 40,
+      "b": 30
+     },
+     "expected_answer": 70,
+     "hint_hi": "पहले इकाई जोड़ो, फिर दहाई। दस इकाई हों तो एक दहाई बना लो।",
+     "explanation_hi": "इकाई: 0 + 0 = 0। दहाई: 4 + 3 = 7। कुल 70।",
+     "visual": {
+      "type": "bundles_add",
+      "a": [
+       4,
+       0
+      ],
+      "b": [
+       3,
+       0
+      ]
+     },
+     "position": 4
+    },
+    {
+     "difficulty": 2,
+     "kind": "add",
+     "prompt_hi": "23 और 14 को जोड़ो। कितना हुआ?",
+     "prompt_en": "Add 23 and 14.",
+     "operands": {
+      "a": 23,
+      "b": 14
+     },
+     "expected_answer": 37,
+     "hint_hi": "पहले इकाई जोड़ो, फिर दहाई। दस इकाई हों तो एक दहाई बना लो।",
+     "explanation_hi": "इकाई: 3 + 4 = 7। दहाई: 2 + 1 = 3। कुल 37।",
+     "visual": {
+      "type": "bundles_add",
+      "a": [
+       2,
+       3
+      ],
+      "b": [
+       1,
+       4
+      ]
+     },
+     "position": 5
+    },
+    {
+     "difficulty": 2,
+     "kind": "add",
+     "prompt_hi": "32 और 25 को जोड़ो। कितना हुआ?",
+     "prompt_en": "Add 32 and 25.",
+     "operands": {
+      "a": 32,
+      "b": 25
+     },
+     "expected_answer": 57,
+     "hint_hi": "पहले इकाई जोड़ो, फिर दहाई। दस इकाई हों तो एक दहाई बना लो।",
+     "explanation_hi": "इकाई: 2 + 5 = 7। दहाई: 3 + 2 = 5। कुल 57।",
+     "visual": {
+      "type": "bundles_add",
+      "a": [
+       3,
+       2
+      ],
+      "b": [
+       2,
+       5
+      ]
+     },
+     "position": 6
+    },
+    {
+     "difficulty": 2,
+     "kind": "add",
+     "prompt_hi": "41 और 36 को जोड़ो। कितना हुआ?",
+     "prompt_en": "Add 41 and 36.",
+     "operands": {
+      "a": 41,
+      "b": 36
+     },
+     "expected_answer": 77,
+     "hint_hi": "पहले इकाई जोड़ो, फिर दहाई। दस इकाई हों तो एक दहाई बना लो।",
+     "explanation_hi": "इकाई: 1 + 6 = 7। दहाई: 4 + 3 = 7। कुल 77।",
+     "visual": {
+      "type": "bundles_add",
+      "a": [
+       4,
+       1
+      ],
+      "b": [
+       3,
+       6
+      ]
+     },
+     "position": 7
+    },
+    {
+     "difficulty": 2,
+     "kind": "add",
+     "prompt_hi": "15 और 12 को जोड़ो। कितना हुआ?",
+     "prompt_en": "Add 15 and 12.",
+     "operands": {
+      "a": 15,
+      "b": 12
+     },
+     "expected_answer": 27,
+     "hint_hi": "पहले इकाई जोड़ो, फिर दहाई। दस इकाई हों तो एक दहाई बना लो।",
+     "explanation_hi": "इकाई: 5 + 2 = 7। दहाई: 1 + 1 = 2। कुल 27।",
+     "visual": {
+      "type": "bundles_add",
+      "a": [
+       1,
+       5
+      ],
+      "b": [
+       1,
+       2
+      ]
+     },
+     "position": 8
+    },
+    {
+     "difficulty": 2,
+     "kind": "add",
+     "prompt_hi": "52 और 27 को जोड़ो। कितना हुआ?",
+     "prompt_en": "Add 52 and 27.",
+     "operands": {
+      "a": 52,
+      "b": 27
+     },
+     "expected_answer": 79,
+     "hint_hi": "पहले इकाई जोड़ो, फिर दहाई। दस इकाई हों तो एक दहाई बना लो।",
+     "explanation_hi": "इकाई: 2 + 7 = 9। दहाई: 5 + 2 = 7। कुल 79।",
+     "visual": {
+      "type": "bundles_add",
+      "a": [
+       5,
+       2
+      ],
+      "b": [
+       2,
+       7
+      ]
+     },
+     "position": 9
+    },
+    {
+     "difficulty": 3,
+     "kind": "add",
+     "prompt_hi": "28 और 15 को जोड़ो। कितना हुआ?",
+     "prompt_en": "Add 28 and 15.",
+     "operands": {
+      "a": 28,
+      "b": 15
+     },
+     "expected_answer": 43,
+     "hint_hi": "पहले इकाई जोड़ो, फिर दहाई। दस इकाई हों तो एक दहाई बना लो।",
+     "explanation_hi": "इकाई: 8 + 5 = 13। इसमें 1 दहाई बनी, 3 इकाई बचीं। दहाई: 2 + 1 + 1 = 4। कुल 43।",
+     "visual": {
+      "type": "bundles_add",
+      "a": [
+       2,
+       8
+      ],
+      "b": [
+       1,
+       5
+      ]
+     },
+     "position": 10
+    },
+    {
+     "difficulty": 3,
+     "kind": "add",
+     "prompt_hi": "37 और 26 को जोड़ो। कितना हुआ?",
+     "prompt_en": "Add 37 and 26.",
+     "operands": {
+      "a": 37,
+      "b": 26
+     },
+     "expected_answer": 63,
+     "hint_hi": "पहले इकाई जोड़ो, फिर दहाई। दस इकाई हों तो एक दहाई बना लो।",
+     "explanation_hi": "इकाई: 7 + 6 = 13। इसमें 1 दहाई बनी, 3 इकाई बचीं। दहाई: 3 + 2 + 1 = 6। कुल 63।",
+     "visual": {
+      "type": "bundles_add",
+      "a": [
+       3,
+       7
+      ],
+      "b": [
+       2,
+       6
+      ]
+     },
+     "position": 11
+    },
+    {
+     "difficulty": 3,
+     "kind": "add",
+     "prompt_hi": "19 और 24 को जोड़ो। कितना हुआ?",
+     "prompt_en": "Add 19 and 24.",
+     "operands": {
+      "a": 19,
+      "b": 24
+     },
+     "expected_answer": 43,
+     "hint_hi": "पहले इकाई जोड़ो, फिर दहाई। दस इकाई हों तो एक दहाई बना लो।",
+     "explanation_hi": "इकाई: 9 + 4 = 13। इसमें 1 दहाई बनी, 3 इकाई बचीं। दहाई: 1 + 2 + 1 = 4। कुल 43।",
+     "visual": {
+      "type": "bundles_add",
+      "a": [
+       1,
+       9
+      ],
+      "b": [
+       2,
+       4
+      ]
+     },
+     "position": 12
+    },
+    {
+     "difficulty": 3,
+     "kind": "add",
+     "prompt_hi": "46 और 18 को जोड़ो। कितना हुआ?",
+     "prompt_en": "Add 46 and 18.",
+     "operands": {
+      "a": 46,
+      "b": 18
+     },
+     "expected_answer": 64,
+     "hint_hi": "पहले इकाई जोड़ो, फिर दहाई। दस इकाई हों तो एक दहाई बना लो।",
+     "explanation_hi": "इकाई: 6 + 8 = 14। इसमें 1 दहाई बनी, 4 इकाई बचीं। दहाई: 4 + 1 + 1 = 6। कुल 64।",
+     "visual": {
+      "type": "bundles_add",
+      "a": [
+       4,
+       6
+      ],
+      "b": [
+       1,
+       8
+      ]
+     },
+     "position": 13
+    },
+    {
+     "difficulty": 3,
+     "kind": "add",
+     "prompt_hi": "55 और 29 को जोड़ो। कितना हुआ?",
+     "prompt_en": "Add 55 and 29.",
+     "operands": {
+      "a": 55,
+      "b": 29
+     },
+     "expected_answer": 84,
+     "hint_hi": "पहले इकाई जोड़ो, फिर दहाई। दस इकाई हों तो एक दहाई बना लो।",
+     "explanation_hi": "इकाई: 5 + 9 = 14। इसमें 1 दहाई बनी, 4 इकाई बचीं। दहाई: 5 + 2 + 1 = 8। कुल 84।",
+     "visual": {
+      "type": "bundles_add",
+      "a": [
+       5,
+       5
+      ],
+      "b": [
+       2,
+       9
+      ]
+     },
+     "position": 14
+    }
+   ]
+  }
+ },
+ {
+  "skill": {
+   "code": "word_problems_20",
+   "name_en": "Word problems within 20",
+   "name_hi": "20 तक इबारती सवाल",
+   "level": "advancing",
+   "grade_band": "2-3",
+   "sort_order": 8,
+   "curriculum_refs": [
+    "Informed by NIPUN Bharat numeracy goals (Grade 2-3)"
+   ],
+   "description_hi": "बच्चे छोटी कहानी सुनकर पहचान पाएँ कि जोड़ना है या घटाना, और सही उत्तर दें।"
+  },
+  "lesson": {
+   "code": "word_problems_20_v1",
+   "title_hi": "20 तक इबारती सवाल",
+   "title_en": "Word problems within 20",
+   "objective_hi": "बच्चे छोटी कहानी सुनकर पहचान पाएँ कि जोड़ना है या घटाना, और सही उत्तर दें।",
+   "intro_hi": "नमस्ते बच्चो! मैं बोलती टोली हूँ। आज हम साथ में कहानी वाले सवाल का अभ्यास करेंगे। मैं सवाल पूछूँगी, तुम सब मिलकर सोचो और फिर एक साथ जवाब बोलो।",
+   "completion_criteria": {
+    "target_minutes": 15,
+    "min_questions": 6
+   },
+   "questions": [
+    {
+     "difficulty": 1,
+     "kind": "word_add",
+     "prompt_hi": "मीना के पास 3 पेंसिलें हैं। उसकी दीदी ने उसे 2 पेंसिलें और दीं। अब मीना के पास कितनी पेंसिलें हैं?",
+     "prompt_en": "Meena has 3 pencils. Her sister gives her 2 more. How many now?",
+     "operands": {
+      "a": 3,
+      "b": 2
+     },
+     "expected_answer": 5,
+     "hint_hi": "कहानी में चीज़ें बढ़ रही हैं, इसलिए जोड़ो।",
+     "explanation_hi": "चीज़ें बढ़ीं, इसलिए जोड़ना है: 3 + 2 = 5।",
+     "visual": null,
+     "position": 0
+    },
+    {
+     "difficulty": 1,
+     "kind": "word_sub",
+     "prompt_hi": "पेड़ पर 5 चिड़ियाँ बैठी थीं। 2 चिड़ियाँ उड़ गईं। अब पेड़ पर कितनी चिड़ियाँ हैं?",
+     "prompt_en": "5 birds sat on a tree. 2 flew away. How many are left?",
+     "operands": {
+      "a": 5,
+      "b": 2
+     },
+     "expected_answer": 3,
+     "hint_hi": "कहानी में चीज़ें कम हो रही हैं, इसलिए घटाओ।",
+     "explanation_hi": "चीज़ें कम हुईं, इसलिए घटाना है: 5 − 2 = 3।",
+     "visual": null,
+     "position": 1
+    },
+    {
+     "difficulty": 1,
+     "kind": "word_add",
+     "prompt_hi": "अमन ने 4 आम तोड़े और रवि ने 3 आम तोड़े। दोनों ने मिलकर कितने आम तोड़े?",
+     "prompt_en": "Aman picked 4 mangoes and Ravi picked 3. How many together?",
+     "operands": {
+      "a": 4,
+      "b": 3
+     },
+     "expected_answer": 7,
+     "hint_hi": "कहानी में चीज़ें बढ़ रही हैं, इसलिए जोड़ो।",
+     "explanation_hi": "चीज़ें बढ़ीं, इसलिए जोड़ना है: 4 + 3 = 7।",
+     "visual": null,
+     "position": 2
+    },
+    {
+     "difficulty": 1,
+     "kind": "word_sub",
+     "prompt_hi": "थाली में 6 लड्डू थे। बच्चों ने 3 लड्डू खा लिए। अब कितने लड्डू बचे?",
+     "prompt_en": "There were 6 laddoos. Children ate 3. How many are left?",
+     "operands": {
+      "a": 6,
+      "b": 3
+     },
+     "expected_answer": 3,
+     "hint_hi": "कहानी में चीज़ें कम हो रही हैं, इसलिए घटाओ।",
+     "explanation_hi": "चीज़ें कम हुईं, इसलिए घटाना है: 6 − 3 = 3।",
+     "visual": null,
+     "position": 3
+    },
+    {
+     "difficulty": 1,
+     "kind": "word_add",
+     "prompt_hi": "कक्षा में 5 लड़कियाँ और 4 लड़के हैं। कुल कितने बच्चे हैं?",
+     "prompt_en": "There are 5 girls and 4 boys. How many children?",
+     "operands": {
+      "a": 5,
+      "b": 4
+     },
+     "expected_answer": 9,
+     "hint_hi": "कहानी में चीज़ें बढ़ रही हैं, इसलिए जोड़ो।",
+     "explanation_hi": "चीज़ें बढ़ीं, इसलिए जोड़ना है: 5 + 4 = 9।",
+     "visual": null,
+     "position": 4
+    },
+    {
+     "difficulty": 2,
+     "kind": "word_add",
+     "prompt_hi": "सलमा के पास 8 कंचे हैं। उसे खेल में 5 कंचे और मिले। अब उसके पास कितने कंचे हैं?",
+     "prompt_en": "Salma has 8 marbles and wins 5 more. How many now?",
+     "operands": {
+      "a": 8,
+      "b": 5
+     },
+     "expected_answer": 13,
+     "hint_hi": "कहानी में चीज़ें बढ़ रही हैं, इसलिए जोड़ो।",
+     "explanation_hi": "चीज़ें बढ़ीं, इसलिए जोड़ना है: 8 + 5 = 13।",
+     "visual": null,
+     "position": 5
+    },
+    {
+     "difficulty": 2,
+     "kind": "word_sub",
+     "prompt_hi": "गुड्डू के पास 12 रुपये थे। उसने 4 रुपये की टॉफ़ी ली। अब उसके पास कितने रुपये बचे?",
+     "prompt_en": "Guddu had 12 rupees and spent 4. How much is left?",
+     "operands": {
+      "a": 12,
+      "b": 4
+     },
+     "expected_answer": 8,
+     "hint_hi": "कहानी में चीज़ें कम हो रही हैं, इसलिए घटाओ।",
+     "explanation_hi": "चीज़ें कम हुईं, इसलिए घटाना है: 12 − 4 = 8।",
+     "visual": null,
+     "position": 6
+    },
+    {
+     "difficulty": 2,
+     "kind": "word_add",
+     "prompt_hi": "बस में 9 लोग थे। अगले स्टॉप पर 6 लोग और चढ़े। अब बस में कितने लोग हैं?",
+     "prompt_en": "9 people were on a bus; 6 more got on. How many now?",
+     "operands": {
+      "a": 9,
+      "b": 6
+     },
+     "expected_answer": 15,
+     "hint_hi": "कहानी में चीज़ें बढ़ रही हैं, इसलिए जोड़ो।",
+     "explanation_hi": "चीज़ें बढ़ीं, इसलिए जोड़ना है: 9 + 6 = 15।",
+     "visual": null,
+     "position": 7
+    },
+    {
+     "difficulty": 2,
+     "kind": "word_sub",
+     "prompt_hi": "किताबों की अलमारी में 15 किताबें थीं। बच्चों ने 5 किताबें पढ़ने के लिए लीं। अब कितनी किताबें बचीं?",
+     "prompt_en": "There were 15 books; children took 5. How many are left?",
+     "operands": {
+      "a": 15,
+      "b": 5
+     },
+     "expected_answer": 10,
+     "hint_hi": "कहानी में चीज़ें कम हो रही हैं, इसलिए घटाओ।",
+     "explanation_hi": "चीज़ें कम हुईं, इसलिए घटाना है: 15 − 5 = 10।",
+     "visual": null,
+     "position": 8
+    },
+    {
+     "difficulty": 2,
+     "kind": "word_sub",
+     "prompt_hi": "खेत में 14 बकरियाँ थीं। 6 बकरियाँ घर चली गईं। अब खेत में कितनी बकरियाँ हैं?",
+     "prompt_en": "14 goats were in a field; 6 went home. How many are left?",
+     "operands": {
+      "a": 14,
+      "b": 6
+     },
+     "expected_answer": 8,
+     "hint_hi": "कहानी में चीज़ें कम हो रही हैं, इसलिए घटाओ।",
+     "explanation_hi": "चीज़ें कम हुईं, इसलिए घटाना है: 14 − 6 = 8।",
+     "visual": null,
+     "position": 9
+    },
+    {
+     "difficulty": 3,
+     "kind": "word_add",
+     "prompt_hi": "पहले दिन 9 पौधे लगाए और दूसरे दिन 8 पौधे। कुल कितने पौधे लगाए?",
+     "prompt_en": "9 plants on day one and 8 on day two. How many in all?",
+     "operands": {
+      "a": 9,
+      "b": 8
+     },
+     "expected_answer": 17,
+     "hint_hi": "कहानी में चीज़ें बढ़ रही हैं, इसलिए जोड़ो।",
+     "explanation_hi": "चीज़ें बढ़ीं, इसलिए जोड़ना है: 9 + 8 = 17।",
+     "visual": null,
+     "position": 10
+    },
+    {
+     "difficulty": 3,
+     "kind": "word_sub",
+     "prompt_hi": "माली के पास 17 फूल थे। उसने 9 फूल माला में लगा दिए। अब कितने फूल बचे?",
+     "prompt_en": "A gardener had 17 flowers and used 9. How many are left?",
+     "operands": {
+      "a": 17,
+      "b": 9
+     },
+     "expected_answer": 8,
+     "hint_hi": "कहानी में चीज़ें कम हो रही हैं, इसलिए घटाओ।",
+     "explanation_hi": "चीज़ें कम हुईं, इसलिए घटाना है: 17 − 9 = 8।",
+     "visual": null,
+     "position": 11
+    },
+    {
+     "difficulty": 3,
+     "kind": "word_add",
+     "prompt_hi": "रीना ने 7 रोटियाँ बनाईं और माँ ने 8 रोटियाँ। कुल कितनी रोटियाँ बनीं?",
+     "prompt_en": "Reena made 7 rotis and mother made 8. How many in all?",
+     "operands": {
+      "a": 7,
+      "b": 8
+     },
+     "expected_answer": 15,
+     "hint_hi": "कहानी में चीज़ें बढ़ रही हैं, इसलिए जोड़ो।",
+     "explanation_hi": "चीज़ें बढ़ीं, इसलिए जोड़ना है: 7 + 8 = 15।",
+     "visual": null,
+     "position": 12
+    },
+    {
+     "difficulty": 3,
+     "kind": "word_sub",
+     "prompt_hi": "डिब्बे में 16 चॉक थे। कक्षा में 7 चॉक इस्तेमाल हो गए। अब डिब्बे में कितने चॉक हैं?",
+     "prompt_en": "A box had 16 chalks; 7 were used. How many are left?",
+     "operands": {
+      "a": 16,
+      "b": 7
+     },
+     "expected_answer": 9,
+     "hint_hi": "कहानी में चीज़ें कम हो रही हैं, इसलिए घटाओ।",
+     "explanation_hi": "चीज़ें कम हुईं, इसलिए घटाना है: 16 − 7 = 9।",
+     "visual": null,
+     "position": 13
+    },
+    {
+     "difficulty": 3,
+     "kind": "word_sub",
+     "prompt_hi": "बगीचे में 18 तितलियाँ थीं। 9 तितलियाँ उड़ गईं। अब कितनी तितलियाँ बचीं?",
+     "prompt_en": "18 butterflies; 9 flew away. How many are left?",
+     "operands": {
+      "a": 18,
+      "b": 9
+     },
+     "expected_answer": 9,
+     "hint_hi": "कहानी में चीज़ें कम हो रही हैं, इसलिए घटाओ।",
+     "explanation_hi": "चीज़ें कम हुईं, इसलिए घटाना है: 18 − 9 = 9।",
+     "visual": null,
+     "position": 14
+    }
+   ]
+  }
+ }
+]

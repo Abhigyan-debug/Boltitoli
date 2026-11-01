@@ -1,0 +1,243 @@
+@import "tailwindcss";
+
+/* Self-hosted fonts: they must work offline in the classroom. */
+@import "@fontsource/mukta/devanagari-400.css";
+@import "@fontsource/mukta/devanagari-500.css";
+@import "@fontsource/mukta/devanagari-600.css";
+@import "@fontsource/mukta/devanagari-700.css";
+@import "@fontsource/mukta/devanagari-800.css";
+@import "@fontsource/mukta/latin-400.css";
+@import "@fontsource/mukta/latin-500.css";
+@import "@fontsource/mukta/latin-600.css";
+@import "@fontsource/mukta/latin-700.css";
+@import "@fontsource/mukta/latin-800.css";
+@import "@fontsource/kalam/devanagari-400.css";
+@import "@fontsource/kalam/latin-400.css";
+@import "@fontsource/kalam/devanagari-700.css";
+@import "@fontsource/kalam/latin-700.css";
+
+/*
+ * BoltiToli design tokens — "the slate and the desk".
+ * slate  = indigo chalkboard: sidebar, question panel, primary text
+ * chalk  = page and chalk-written text
+ * paper  = ivory paper: lesson sheets and summaries only
+ * teal   = primary action
+ * wood   = desk, frames, counting trays
+ * saffron= BoltiToli is speaking / the current step (use sparingly)
+ */
+@theme {
+  --font-sans: "Mukta", "Noto Sans Devanagari", system-ui, sans-serif;
+  --font-chalk: "Kalam", "Mukta", cursive;
+
+  --color-slate-950: #0d1630;
+  --color-slate-900: #111d3a;
+  --color-slate-800: #16254a;
+  --color-slate-700: #22345e;
+  --color-slate-600: #34497a;
+  --color-slate-400: #8a97b8;
+  --color-slate-200: #d3d9e8;
+  --color-slate-100: #e8ecf5;
+
+  --color-chalk: #f7f3ec;
+  --color-chalk-dim: #efe9df;
+  --color-paper: #fbf3e2;
+  --color-paper-line: #ead9b6;
+  --color-card: #ffffff;
+  --color-line: #ebe5da;
+  --color-line-strong: #d6cebf;
+
+  --color-ink: #16254a;
+  --color-ink-muted: #556078;
+  --color-ink-faint: #646d85;
+
+  --color-teal-800: #0b5f59;
+  --color-teal-700: #0d6e67;
+  --color-teal-600: #0f7f77;
+  --color-teal-100: #d5efec;
+  --color-teal-50: #ecf8f6;
+
+  /* sky: active navigation pill, info tiles */
+  --color-sky-100: #dcf0f7;
+  --color-sky-50: #eef8fb;
+  --color-sky-600: #2280b8;
+
+  /* one colour per group level, shared by cards and charts (Beginner / Developing / Advancing) */
+  --color-udaan: #f28a1e;
+  --color-pragati: #3b8fe0;
+  --color-tarang: #1fa287;
+
+  --color-wood-700: #8c5f35;
+  --color-wood-600: #a87445;
+  --color-wood-500: #b5804e;
+  --color-wood-200: #e9cfa8;
+  --color-wood-100: #f4e6cf;
+
+  --color-saffron-700: #a9500a; /* orange that passes AA for small text */
+  --color-saffron-600: #d2650c;
+  --color-saffron-500: #f28a1e;
+  --color-saffron-100: #fdebd6;
+
+  --color-success-700: #1d7442;
+  --color-success-500: #2fb36b;
+  --color-success-100: #dcf3e5;
+  --color-danger-700: #c0392b;
+  --color-danger-100: #fbe2dd;
+  --color-warning-700: #8a5a07;
+  --color-warning-100: #fbefd2;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-slate: 20px;
+
+  --shadow-card: 0 1px 2px rgb(22 37 74 / 0.04), 0 8px 24px -12px rgb(22 37 74 / 0.16);
+  --shadow-lift: 0 2px 4px rgb(22 37 74 / 0.05), 0 22px 44px -20px rgb(22 37 74 / 0.38);
+  --shadow-press: inset 0 2px 0 rgb(0 0 0 / 0.12);
+  --shadow-glow-teal: 0 10px 26px -10px rgb(15 127 119 / 0.65);
+  --shadow-glow-slate: 0 10px 26px -10px rgb(22 37 74 / 0.6);
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 120ms;
+  --duration-base: 200ms;
+  --duration-slow: 360ms;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-chalk text-ink font-sans antialiased;
+    font-size: 16px;
+    line-height: 1.55;
+  }
+  :lang(hi),
+  .hi {
+    line-height: 1.7;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply text-ink;
+    line-height: 1.2;
+    text-wrap: balance;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-saffron-500);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  ::selection {
+    background: var(--color-saffron-100);
+  }
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* The slate: indigo board with a faint chalk-dust texture. */
+@utility slate-surface {
+  background-color: var(--color-slate-800);
+  background-image:
+    radial-gradient(circle at 20% 15%, rgb(255 255 255 / 0.045) 0, transparent 45%),
+    radial-gradient(circle at 85% 80%, rgb(255 255 255 / 0.035) 0, transparent 40%);
+  color: var(--color-chalk);
+}
+
+/* A wooden frame around a slate (padding + gradient so rounded corners work). */
+@utility wood-frame {
+  padding: 10px;
+  background: linear-gradient(135deg, #c08a57, #a46f41 40%, #b9834f 70%, #94643a);
+}
+
+/* Exercise-book paper for summaries: ivory with a red margin line. */
+@utility paper-ruled {
+  background-color: var(--color-paper);
+  background-image: linear-gradient(
+    to right,
+    transparent 0,
+    transparent 30px,
+    rgb(194 85 60 / 0.45) 30px,
+    rgb(194 85 60 / 0.45) 31.5px,
+    transparent 31.5px
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes dialog-in {
+  from { opacity: 0; transform: translate(-50%, calc(-50% + 8px)); }
+  to { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+@keyframes bt-wave {
+  0%, 100% { height: 8px; }
+  50% { height: 44px; }
+}
+
+/* Gentle hover in place, for floating 3D-looking icons and badges. */
+@keyframes bt-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+/* Ring that grows and fades from a live element (mic, speaker). */
+@keyframes bt-ring {
+  from { transform: scale(0.85); opacity: 0.55; }
+  to { transform: scale(1.6); opacity: 0; }
+}
+/* Light sweeping across a glossy surface. */
+@keyframes bt-shine {
+  from { transform: translateX(-120%) skewX(-20deg); }
+  to { transform: translateX(220%) skewX(-20deg); }
+}
+
+/* Equaliser bar for "listening" badges. */
+@keyframes bt-bar {
+  0%, 100% { height: 6px; }
+  50% { height: 22px; }
+}
+/* Light travelling along gradient text. */
+@keyframes bt-shimmer {
+  from { background-position: 100% 0; }
+  to { background-position: -150% 0; }
+}
+/* Slow wandering of blurred background glows. */
+@keyframes bt-drift {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(40px, 30px) scale(1.12); }
+}
+
+/* Eyes close briefly every few seconds. */
+@keyframes bt-blink {
+  0%, 94%, 100% { transform: scaleY(1); }
+  97% { transform: scaleY(0.1); }
+}
+/* Pop in with a little overshoot (celebration star). */
+@keyframes bt-pop {
+  0% { transform: scale(0) rotate(-20deg); opacity: 0; }
+  60% { transform: scale(1.2) rotate(8deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0); opacity: 1; }
+}
+
+/* Raised, lit-from-above tile: the "3D" icon chip used on cards. */
+@utility tile-3d {
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-md);
+  background-image: linear-gradient(160deg, rgb(255 255 255 / 0.55), transparent 55%);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.7), inset 0 -2px 0 rgb(0 0 0 / 0.08), 0 6px 14px -8px rgb(22 37 74 / 0.4);
+}
