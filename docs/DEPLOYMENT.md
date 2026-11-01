@@ -15,6 +15,19 @@ included `deploy/nginx.conf` does this). The refresh cookie then works with `Sam
 `VITE_API_BASE_URL=https://api.example.org`, and on the backend set
 `CORS_ORIGINS=https://app.example.org`, `REFRESH_COOKIE_SECURE=true`, `REFRESH_COOKIE_SAMESITE=none`.
 
+## Current deployment (1 November 2026)
+
+| Piece | Where |
+|---|---|
+| Website | https://boltitoli.vercel.app (Vercel, root directory `frontend`, settings in `frontend/vercel.json`) |
+| API | Render web service `boltitoli-api` (Docker, Singapore, settings in `render.yaml`) |
+| Database | Neon PostgreSQL, Singapore, direct (non-pooled) connection |
+
+Share the `boltitoli.vercel.app` address. The per-deployment Vercel addresses are protected by Vercel
+Authentication and show a login page. Changing a value in `render.yaml` and pushing does not always update
+the running service's environment; check the service's **Environment** tab or run a Blueprint **Manual sync**.
+Render's free plan sleeps after about 15 minutes without visitors; the first request then takes about 50 seconds.
+
 ## Backend production settings
 
 ```

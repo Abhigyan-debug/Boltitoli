@@ -30,10 +30,13 @@ What is done, what is in progress and what comes next. For the detailed validati
 - Repository prepared for GitHub: complete `.gitignore`, secret scan clean (1 Nov 2026)
 - Hackathon documents: pitch, roadmap, user-testing script, decision log
 
+**Deployment (1 Nov 2026)**
+- Code on GitHub; live at https://boltitoli.vercel.app (Vercel), API on Render, PostgreSQL on Neon
+- Verified live: health check and database, demo login, `/api` forwarding, security headers
+- Rate limiting verified live: 11th demo login blocked through the website and across direct and website requests
+
 ## In progress
 
-- Pushing the code to GitHub
-- Deployment to Vercel, Render and Neon, then confirming `TRUSTED_PROXY_HOPS` from real traffic
 - Demo video for the hackathon submission
 
 ## Next
